@@ -1,4 +1,4 @@
-https://github.com/<OWNER>/<REPOSITORY>/workflows/<WORKFLOW_NAME>/badge.svg
+[![codecov](https://codecov.io/gh/maczi01/feedback-app/branch/master/graph/badge.svg)](https://codecov.io/gh/maczi01/feedback-app)
 
 
 # Getting Started with Create React App
