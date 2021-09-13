@@ -2,7 +2,7 @@ import {createTheme} from "@material-ui/core";
 
 const theme = createTheme({
     typography: {
-        fontFamily: "Jost"
+        fontFamily: "Jost",
     },
     palette: {
         primary: {
