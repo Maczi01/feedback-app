@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__tests__/Navbar.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Admin\WebstormProjects\feedback-app\node_modules\typescript\lib" />
   </component>
@@ -62,6 +61,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="&lt;Navbar/&gt;.correctly render Navbar" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/Navbar.test.tsx" />
+      <test-names>
+        <test-name value="&lt;Navbar/&gt;" />
+        <test-name value="correctly render Navbar" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.&lt;Navbar/&gt;.correctly render Navbar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
-      <workItem from="1631473193238" duration="10450000" />
+      <workItem from="1631473193238" duration="10761000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -103,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631537396358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added simple test">
+      <created>1631554286957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631554286957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +155,7 @@
     <MESSAGE value="Changes in default theme (overrided)" />
     <MESSAGE value="Changes global theme, foooter and navbar" />
     <MESSAGE value="Added card components." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added card components." />
+    <MESSAGE value="Added simple test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple test" />
   </component>
 </project>
