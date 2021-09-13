@@ -9,13 +9,14 @@ const theme = createTheme({
             main: "#F2F4FF"
         },
         text:{
-            primary: "#3A4374"
+            primary: "#3A4374",
+            secondary: "#FFFFFF"
         },
         whatever: {
             main: "#f6ff5a"
         },
         background: {
-            paper: "#f6ff5a"
+            paper: "#ffffff"
         }
 
 

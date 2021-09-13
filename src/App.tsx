@@ -4,18 +4,20 @@ import {ThemeProvider} from "@material-ui/core/styles";
 import theme from "./theme/theme";
 import {CssBaseline} from "@material-ui/core";
 import Footer from "./components/Footer";
+import {Box, Typography, Button, TextField} from "@material-ui/core";
+import ProductCard from "./components/ProductCard";
 
 const App = () => (
     <ThemeProvider theme={theme}>
         <CssBaseline/>
-        <div>
+        <Box bgcolor="#F2F4FF" >
             <Navbar/>
             <p>
                 Edit src/App.js and save to reload.
             </p>
-            Learn React
+            <ProductCard/>
             <Footer/>
-        </div>
+        </Box>
     </ThemeProvider>
 );
 
