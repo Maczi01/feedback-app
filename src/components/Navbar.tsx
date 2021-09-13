@@ -6,7 +6,8 @@ import bulb from "../assets/bulb.svg"
 
 const Navbar = () => {
     return (
-        <Box bgcolor="text.primary" position="static">
+        <Box bgcolor="text.primary" position="static" data-testid="navbar"
+        >
             <Toolbar color="textSecondary">
                 <img src={bulb} alt="logo"/>
                 <Typography
