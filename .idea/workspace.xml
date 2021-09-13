@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
-      <workItem from="1631473193238" duration="10761000" />
+      <workItem from="1631473193238" duration="12233000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631554286957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changes in package.json, added build app script">
+      <created>1631554610878</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631554610879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +163,7 @@
     <MESSAGE value="Changes global theme, foooter and navbar" />
     <MESSAGE value="Added card components." />
     <MESSAGE value="Added simple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added simple test" />
+    <MESSAGE value="Changes in package.json, added build app script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in package.json, added build app script" />
   </component>
 </project>
