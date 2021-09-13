@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/glass.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/glass.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/glass.jfif" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
-      <workItem from="1631473193238" duration="12233000" />
+      <workItem from="1631473193238" duration="13322000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631554610879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Try with build folder">
+      <created>1631558184014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631558184014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +173,7 @@
     <MESSAGE value="Added card components." />
     <MESSAGE value="Added simple test" />
     <MESSAGE value="Changes in package.json, added build app script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in package.json, added build app script" />
+    <MESSAGE value="Try with build folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try with build folder" />
   </component>
 </project>
