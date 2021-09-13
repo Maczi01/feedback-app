@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/commentIcon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/theme/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.tsx" afterDir="false" />
     </list>
@@ -99,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
-      <workItem from="1631473193238" duration="16850000" />
+      <workItem from="1631473193238" duration="21246000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631559887500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Work on card (changed title font)">
+      <created>1631563994537</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631563994537</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="Changes in yaml github file" />
     <MESSAGE value="Refactor code (to check github actions)" />
     <MESSAGE value="Refactor code 2 (to check github actions)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor code 2 (to check github actions)" />
+    <MESSAGE value="Work on card (changed title font)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on card (changed title font)" />
   </component>
 </project>
