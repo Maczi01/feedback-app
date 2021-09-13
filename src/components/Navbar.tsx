@@ -1,5 +1,4 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import {Box, Typography, Button, TextField} from "@material-ui/core";
 import bulb from "../assets/bulb.svg"
