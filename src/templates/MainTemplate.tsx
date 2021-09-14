@@ -5,10 +5,10 @@ import Box from "@material-ui/core/Box";
 import {makeStyles, Theme} from "@material-ui/core";
 
 type Props = {
-    children: JSX.Element,
+    children: any,
 };
 
-const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles(() => ({
         template: {
             width: "80vw",
             margin: "0 auto"

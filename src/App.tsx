@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import {Box} from "@material-ui/core";
 import ProductCard from "./components/ProductCard";
 import MainTemplate from "./templates/MainTemplate";
+import PremiumAccessImage from "./components/PremiumAccessImage";
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
@@ -24,6 +25,8 @@ const App = () => {
         <ThemeProvider theme={theme}>
             <CssBaseline/>
             <MainTemplate>
+
+                <PremiumAccessImage/>
 
                 <div className={classes.root}>
                     <ProductCard/>
