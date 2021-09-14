@@ -11,10 +11,9 @@ import commentIcon from "../assets/commentIcon.svg"
 import ProductImageWrapper from "./ProductImageWrapper";
 import {Typography} from "@material-ui/core";
 
-
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
-        width: "220px",
+        width: "320px",
         margin: "20px"
     },
     bar: {

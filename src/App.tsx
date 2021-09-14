@@ -6,6 +6,7 @@ import {CssBaseline} from "@material-ui/core";
 import Footer from "./components/Footer";
 import {Box} from "@material-ui/core";
 import ProductCard from "./components/ProductCard";
+import MainTemplate from "./templates/MainTemplate";
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
@@ -22,15 +23,14 @@ const App = () => {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline/>
-            <Box bgcolor="#F2F4FF">
-                <Navbar/>
+            <MainTemplate>
+
                 <div className={classes.root}>
                     <ProductCard/>
                     <ProductCard/>
                     <ProductCard/>
                 </div>
-                <Footer/>
-            </Box>
+            </MainTemplate>
         </ThemeProvider>
     );
 }
