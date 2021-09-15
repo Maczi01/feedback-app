@@ -8,6 +8,7 @@ import {Box} from "@material-ui/core";
 import ProductCard from "./components/ProductCard";
 import MainTemplate from "./templates/MainTemplate";
 import PremiumAccessImage from "./components/PremiumAccessImage";
+import FeedbackCard from "./components/FeedbackCard";
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
@@ -32,6 +33,12 @@ const App = () => {
                     <ProductCard/>
                     <ProductCard/>
                     <ProductCard/>
+                </div>
+
+                <div className={classes.root}>
+                    <FeedbackCard/>
+                    <FeedbackCard/>
+                    <FeedbackCard/>
                 </div>
             </MainTemplate>
         </ThemeProvider>
