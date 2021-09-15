@@ -3,12 +3,8 @@
     "react-app",
     "react-app/jest",
     "airbnb",
-    "prettier",
-    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint"
   ],
-  "plugins": ["prettier"],
   "parser": "@typescript-eslint/parser", //"babel-eslint",
   "env": {
     "browser": true,
@@ -21,13 +17,6 @@
     "document": true
   },
   "rules": {
-    "prettier/prettier": [
-      "warrn",
-      {
-        "singleQuote": true,
-        "printWidth": 150
-      }
-    ],
     "jsx-a11y/label-has-associated-control": "off",
     "no-param-reassign": 0,
     "react/destructuring-assignment": 0,

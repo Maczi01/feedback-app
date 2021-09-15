@@ -9,6 +9,7 @@ import ProductCard from "./components/ProductCard";
 import MainTemplate from "./templates/MainTemplate";
 import PremiumAccessImage from "./components/PremiumAccessImage";
 import FeedbackCard from "./components/FeedbackCard";
+import UserCard from "./components/UserCard";
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
@@ -39,6 +40,12 @@ const App = () => {
                     <FeedbackCard/>
                     <FeedbackCard/>
                     <FeedbackCard/>
+                </div>
+
+                <div className={classes.root}>
+                    <UserCard/>
+                    <UserCard/>
+                    <UserCard/>
                 </div>
             </MainTemplate>
         </ThemeProvider>

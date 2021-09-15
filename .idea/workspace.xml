@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserCard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/anne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image-george.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-anne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-elijah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-george.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-jackson.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-james.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-javier.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-judah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-roxanne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-ryan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-suzanne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-thomas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-victoria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-zena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserCard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +39,7 @@
         <option value="HTML File" />
         <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -35,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,6 +67,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Admin\WebstormProjects\feedback-app\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Users\Admin\WebstormProjects\feedback-app\node_modules\typescript\lib" />
   </component>
@@ -56,6 +77,7 @@
       <recent name="C:\Users\Admin\WebstormProjects\feedback-app\.github\workflows" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\feedback-app\src\assets" />
       <recent name="C:\Users\Admin\WebstormProjects\feedback-app\src\components" />
       <recent name="C:\Users\Admin\WebstormProjects\feedback-app" />
     </key>
@@ -104,7 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
-      <workItem from="1631473193238" duration="33412000" />
+      <workItem from="1631473193238" duration="36760000" />
+      <workItem from="1631739851997" duration="3818000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -204,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631659215124</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Feedback card">
+      <created>1631698450859</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631698450860</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +269,18 @@
     <MESSAGE value="First version of Card finished" />
     <MESSAGE value="Added linter and libraries to linting, put template to App" />
     <MESSAGE value="Added image to main view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added image to main view" />
+    <MESSAGE value="Added Feedback card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Feedback card" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/FeedbackCard.tsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
