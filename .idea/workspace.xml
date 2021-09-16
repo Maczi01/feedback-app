@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data.db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/anne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image-george.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-anne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-elijah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-george.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-jackson.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-javier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-judah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-roxanne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-ryan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-suzanne.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-thomas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-victoria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/user-images/image-zena.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theme/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +117,7 @@
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
       <workItem from="1631473193238" duration="36760000" />
-      <workItem from="1631739851997" duration="3818000" />
+      <workItem from="1631739851997" duration="5433000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -234,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631698450860</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added es lint rules">
+      <created>1631745857456</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631745857457</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,17 +267,7 @@
     <MESSAGE value="Added linter and libraries to linting, put template to App" />
     <MESSAGE value="Added image to main view" />
     <MESSAGE value="Added Feedback card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Feedback card" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/FeedbackCard.tsx</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added es lint rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added es lint rules" />
   </component>
 </project>

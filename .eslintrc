@@ -18,15 +18,27 @@
   },
   "rules": {
     "jsx-a11y/label-has-associated-control": "off",
-    "no-param-reassign": 0,
-    "react/destructuring-assignment": 0,
-    "no-underscore-dangle": 0,
+    "no-param-reassign": 1,
+    "react/destructuring-assignment": 1,
+    "no-underscore-dangle": 1,
     "react/prop-types": 1,
-    "import/prefer-default-export": 0,
-    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 1,
+    "import/no-extraneous-dependencies": 1,
     "import/no-unresolved": 1,
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
     "react/jsx-filename-extension": [
-      1,
+      0,
       {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }

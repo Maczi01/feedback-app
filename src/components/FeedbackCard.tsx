@@ -86,7 +86,7 @@ const FeedbackCard = () => {
         Amazing!
       </Typography>
       <Typography className={classes.body1}>
-        Amazing quality in good price. I'm content! Very fast delivery and good contact
+        Amazing quality in good price. I am content! Very fast delivery and good contact
       </Typography>
       <CardContent className={classes.content}>
         <Box className={classes.comments}>
