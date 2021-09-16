@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="4b85cd21-4ec4-4e6a-adf2-e547bba9352b" />
   </component>
   <component name="ProjectId" id="1y0mmkf7wvJh186HLrM1RBjGsjt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -117,7 +110,8 @@
       <updated>1631397041114</updated>
       <workItem from="1631397047235" duration="8998000" />
       <workItem from="1631473193238" duration="36760000" />
-      <workItem from="1631739851997" duration="5433000" />
+      <workItem from="1631739851997" duration="6214000" />
+      <workItem from="1631825000380" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -231,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631745857457</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactor files with eslint">
+      <created>1631796079384</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631796079386</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +269,7 @@
     <MESSAGE value="Added image to main view" />
     <MESSAGE value="Added Feedback card" />
     <MESSAGE value="Added es lint rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added es lint rules" />
+    <MESSAGE value="Refactor files with eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor files with eslint" />
   </component>
 </project>

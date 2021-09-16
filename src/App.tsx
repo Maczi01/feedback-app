@@ -1,9 +1,7 @@
 import React from 'react';
-import { makeStyles, Theme, ThemeProvider } from '@material-ui/core/styles';
-import { CssBaseline, Box } from '@material-ui/core';
-import Navbar from './components/Navbar';
+import { makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { CssBaseline } from '@material-ui/core';
 import theme from './theme/theme';
-import Footer from './components/Footer';
 import ProductCard from './components/ProductCard';
 import MainTemplate from './templates/MainTemplate';
 import PremiumAccessImage from './components/PremiumAccessImage';
@@ -25,9 +23,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <MainTemplate>
-
         <PremiumAccessImage />
-
         <div className={classes.root}>
           <ProductCard />
           <ProductCard />
