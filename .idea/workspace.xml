@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/reducer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.tsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +110,7 @@
       <workItem from="1631397047235" duration="8998000" />
       <workItem from="1631473193238" duration="36760000" />
       <workItem from="1631739851997" duration="6214000" />
-      <workItem from="1631825000380" duration="2584000" />
+      <workItem from="1631825000380" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631832898861</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changes github actions file">
+      <created>1631882145056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1631882145057</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +284,7 @@
     <MESSAGE value="Added es lint rules" />
     <MESSAGE value="Refactor files with eslint" />
     <MESSAGE value="Added redux to project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added redux to project" />
+    <MESSAGE value="Changes github actions file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes github actions file" />
   </component>
 </project>
