@@ -22,4 +22,13 @@ const initialState: { feedbacks: Feedback [] } = {
 
 };
 
+export const reducer= (state= {feedbacks: []}, action: any) => {
+switch (action.type) {
+    case "FEEDBACK_REQUEST":
+        return {loading: true, feedbacks: []};
+    case "FEEDBACKS_SUCCESS":
+        return {loading: true, feedbacks: action.payload};
+}
+}
+
 export default initialState;
