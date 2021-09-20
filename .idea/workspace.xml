@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +22,7 @@
         <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -109,7 +115,7 @@
       <workItem from="1631397047235" duration="8998000" />
       <workItem from="1631473193238" duration="36760000" />
       <workItem from="1631739851997" duration="6214000" />
-      <workItem from="1631825000380" duration="5188000" />
+      <workItem from="1631825000380" duration="7659000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -251,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632091808818</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Work on reducer">
+      <created>1632092161806</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1632092161806</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +305,7 @@
     <MESSAGE value="Added redux to project" />
     <MESSAGE value="Changes github actions file" />
     <MESSAGE value="Added rducer with initial state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rducer with initial state" />
+    <MESSAGE value="Work on reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on reducer" />
   </component>
 </project>
