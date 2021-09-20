@@ -1,11 +1,10 @@
-import {combineReducers, createStore} from "redux";
-import { feedbacksReducer, initialState} from "../reducers/reducer";
-
+import { combineReducers, createStore } from 'redux';
+import { feedbacksReducer, initialState } from '../reducers/reducer';
 
 const reducer = combineReducers({
-    feedbacks: feedbacksReducer
-})
+  feedbacks: feedbacksReducer,
+});
 
-const store = createStore(reducer)
+const store = createStore(reducer);
 
 export default store;
