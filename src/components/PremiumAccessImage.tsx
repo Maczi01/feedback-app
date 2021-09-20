@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const PremiumAccessImage = () => {
+const PremiumAccessImage: React.FC = () => {
   const classes = useStyles();
 
   return (

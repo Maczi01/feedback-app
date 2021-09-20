@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const UserCard = () => {
+const UserCard: React.FC = () => {
   const classes = useStyles();
 
   return (

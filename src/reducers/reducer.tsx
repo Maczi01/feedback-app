@@ -7,7 +7,11 @@ export interface Feedback {
     description: string
 }
 
-const initialState: { feedbacks: Feedback [] } = {
+type FeedbacksState = {
+    feedbacks: Feedback[]
+}
+
+export const initialState: FeedbacksState = {
     feedbacks: [
         {
             id: 1,
@@ -18,11 +22,13 @@ const initialState: { feedbacks: Feedback [] } = {
             description: 'Easier to search for solutions based on a specific stack.',
         },
     ],
-
 };
 
-export const reducer = (
-    state: { feedbacks: [] },
+
+// export const someAction = {type: "ADD_FEEDBACK", payload: {id: 1, title: "good"}}
+
+export const feedbacksReducer = (
+    state: FeedbacksState = initialState,
     action: any) => {
     switch (action.type) {
         case "FEEDBACK_REQUEST":
@@ -32,4 +38,3 @@ export const reducer = (
     }
 }
 
-export default initialState;

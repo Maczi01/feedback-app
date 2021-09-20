@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const ProductCard = () => {
+const ProductCard: React.FC = () => {
   const classes = useStyles();
 
   return (

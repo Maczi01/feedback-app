@@ -1,6 +1,10 @@
-import initialState, {reducer} from "../reducers/reducer";
-import { createReducer } from 'typesafe-actions';
+import {combineReducers, createStore} from "redux";
+import { feedbacksReducer, initialState} from "../reducers/reducer";
 
+
+const reducer = combineReducers({
+    feedbacks: feedbacksReducer
+})
 
 const store = createStore(reducer)
 
