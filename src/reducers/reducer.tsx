@@ -24,17 +24,10 @@ export const initialState: FeedbacksState = {
   ],
 };
 
-// export const someAction = {type: "ADD_FEEDBACK", payload: {id: 1, title: "good"}}
-
-export const feedbacksReducer = (
+export const rootReducer = (
   state: FeedbacksState = initialState,
   action: any,
 ) => {
   console.log('redux!');
-  // switch (action.type) {
-  // case "FEEDBACK_REQUEST":
-  //     return {loading: true, feedbacks: []};
-  // case "FEEDBACKS_SUCCESS":
-  //     return {loading: true, feedbacks: action.payload};
-  // }
+  return null;
 };
