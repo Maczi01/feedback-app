@@ -33,7 +33,6 @@ const PremiumAccessImage: React.FC = () => {
       <CardMedia
         component="img"
         alt="Contemplative Reptile"
-                // height="200"
         title="Contemplative Reptile"
         src={ombre}
         className={classes.media}
@@ -43,7 +42,7 @@ const PremiumAccessImage: React.FC = () => {
           Read our premium reviews
         </Box>
         <Box fontSize={24} fontWeight="fontWeightMedium">
-          Written by our users after long term use
+          Written by our experts
         </Box>
       </Typography>
     </Box>

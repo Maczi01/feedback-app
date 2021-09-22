@@ -5,7 +5,7 @@ import {
 } from '@material-ui/core';
 import bulb from '../assets/bulb.svg';
 
-const Navbar = () => (
+const Navbar: React.FC = () => (
   <Box
     bgcolor="text.primary"
     position="static"
