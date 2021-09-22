@@ -1,15 +1,10 @@
 import React from 'react';
-import { makeStyles, Theme } from '@material-ui/core/styles';
+import {makeStyles, Theme} from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
-import { Typography } from '@material-ui/core';
-import glass from '../assets/glass.jpg';
+import {Typography} from '@material-ui/core';
 import anne from '../assets/anne.jpg';
-import progress from '../assets/progress.png';
-import commentIcon from '../assets/commentIcon.svg';
 import ProductImageWrapper from './ProductImageWrapper';
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -39,7 +34,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   body2: {
     fontSize: 16,
     fontWeight: theme.typography.fontWeightBold,
-    // margin: "10px",
   },
   body1: {
     fontSize: 16,
