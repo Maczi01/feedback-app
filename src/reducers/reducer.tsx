@@ -1,15 +1,15 @@
 export interface Feedback {
-    id: number,
-    title: string,
-    category: string,
-    upvotes: number,
-    status: string,
-    description: string
+  id: number;
+  title: string;
+  category: string;
+  upvotes: number;
+  status: string;
+  description: string;
 }
 
 type FeedbacksState = {
-    feedbacks: Feedback[]
-}
+  feedbacks: Feedback[];
+};
 
 export const initialState: FeedbacksState = {
   feedbacks: [
@@ -21,13 +21,18 @@ export const initialState: FeedbacksState = {
       status: 'suggestion',
       description: 'Easier to search for solutions based on a specific stack.',
     },
+    {
+      id: 2,
+      title: 'Add more buttons',
+      category: 'enhancement',
+      upvotes: 136,
+      status: 'suggestion',
+      description: 'Easier to search for solutions based on a specific stack.',
+    },
   ],
 };
 
 export const rootReducer = (
   state: FeedbacksState = initialState,
   action: any,
-) => {
-  console.log('redux!');
-  return null;
-};
+) => state;
