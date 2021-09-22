@@ -7,6 +7,10 @@ export interface Feedback {
   description: string;
 }
 
+interface Action {
+  action: string
+}
+
 type FeedbacksState = {
   feedbacks: Feedback[];
 };
@@ -34,5 +38,5 @@ export const initialState: FeedbacksState = {
 
 export const rootReducer = (
   state: FeedbacksState = initialState,
-  action: any,
+  action: Action,
 ) => state;

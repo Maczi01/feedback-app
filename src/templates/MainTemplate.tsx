@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 type Props = {
-    children: any,
+    children: JSX.Element[] | JSX.Element
 };
 
 const useStyles = makeStyles(() => ({

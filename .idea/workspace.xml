@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,7 @@
       <workItem from="1631739851997" duration="6214000" />
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
-      <workItem from="1632176850748" duration="16977000" />
+      <workItem from="1632176850748" duration="18009000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -303,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632348982879</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Changed CI elements and refactor in components">
+      <created>1632350428323</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632350428324</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +330,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changes global theme, foooter and navbar" />
     <MESSAGE value="Added card components." />
     <MESSAGE value="Added simple test" />
     <MESSAGE value="Changes in package.json, added build app script" />
@@ -349,6 +354,7 @@
     <MESSAGE value="Fixed reducers" />
     <MESSAGE value="Changed Feedbacks list" />
     <MESSAGE value="Fixed Feedbacks element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Feedbacks element" />
+    <MESSAGE value="Changed CI elements and refactor in components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed CI elements and refactor in components" />
   </component>
 </project>

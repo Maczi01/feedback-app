@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   content: {
     display: 'flex',
     flexDirection: 'row',
-    // justifyContent: "space-between"
   },
   comments: {
     display: 'flex',
@@ -69,7 +68,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     borderRadius: '10px',
     color: theme.palette.primary.dark,
     height: '25px',
-    // width: "100px",
     margin: '2px',
   },
   info: {

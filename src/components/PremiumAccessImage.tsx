@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Box, Card, CardMedia, createStyles, makeStyles, Theme, Typography,
+  Box, CardMedia, makeStyles, Theme, Typography,
 } from '@material-ui/core';
 import ombre from '../assets/ombre.svg';
 
