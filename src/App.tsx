@@ -33,7 +33,10 @@ const App: React.FC = () => {
             <ProductCard />
           </div>
 
-          <Feedbacks />
+          <div>
+            <div> Last feedbacks</div>
+            <Feedbacks />
+          </div>
 
           <div className={classes.root}>
             <UserCard />

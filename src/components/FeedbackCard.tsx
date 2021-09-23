@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import { Typography } from '@material-ui/core';
 import progress from '../assets/progress.png';
 import ProductImageWrapper from './ProductImageWrapper';
+import { Feedback } from '../reducers/FeedbackReducer';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -69,25 +70,32 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const FeedbackCard: React.FC = () => {
-  const classes = useStyles();
+interface Props {
+  feedback: Feedback
+}
 
+const FeedbackCard: React.FC<Props> = ({ feedback }) => {
+  const {
+    id, title, description, productId, userId, date, grade,
+  } = feedback;
+
+  const classes = useStyles();
   return (
     <Card className={classes.root}>
       <Box className={classes.bar} />
-      <CardContent className={classes.content}>
-        <ProductImageWrapper src={progress} />
-      </CardContent>
       <Typography className={classes.body2}>
-        Amazing!
+        {title}
       </Typography>
       <Typography className={classes.body1}>
-        Amazing quality in good price. I am content! Very fast delivery and good contact
+        {description}
       </Typography>
       <CardContent className={classes.content}>
         <Box className={classes.comments}>
           <Typography className={classes.body3}>
-            John about glass
+            {userId}
+            {' '}
+            about
+            {productId}
           </Typography>
         </Box>
       </CardContent>

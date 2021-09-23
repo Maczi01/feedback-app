@@ -1,8 +1,8 @@
 import { combineReducers, createStore } from 'redux';
-import { rootReducer } from '../reducers/reducer';
+import { feedbackReducer } from '../reducers/FeedbackReducer';
 
 const reducer = combineReducers({
-  feedbacks: rootReducer,
+  feedbacks: feedbackReducer,
 });
 
 const store = createStore(reducer);

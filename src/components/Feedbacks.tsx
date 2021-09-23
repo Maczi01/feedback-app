@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { makeStyles } from '@material-ui/core';
-import { Feedback } from '../reducers/reducer';
 import FeedbackCard from './FeedbackCard';
 import { StoreState } from '../store/store';
+import { Feedback } from '../reducers/FeedbackReducer';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -21,7 +21,7 @@ const Feedbacks: React.FC<Props> = ({ feedbacks }) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      {feedbacks.map((feedback: Feedback) => <FeedbackCard key={feedback.id} />)}
+      {feedbacks.map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
     </div>
   );
 };
