@@ -31,6 +31,4 @@ const mapStateToProps = (state: StoreState) => {
   return feedbacks;
 };
 
-const ConnectedFeedback = connect(mapStateToProps)(Feedbacks);
-
-export default ConnectedFeedback;
+export default connect(mapStateToProps)(Feedbacks);

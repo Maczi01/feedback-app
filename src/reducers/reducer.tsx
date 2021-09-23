@@ -39,4 +39,4 @@ export const initialState: FeedbacksState = {
 export const rootReducer = (
   state: FeedbacksState = initialState,
   action: Action,
-) => state;
+):FeedbacksState => state;

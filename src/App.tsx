@@ -8,7 +8,7 @@ import MainTemplate from './templates/MainTemplate';
 import PremiumAccessImage from './components/PremiumAccessImage';
 import UserCard from './components/UserCard';
 import store from './store/store';
-import ConnectedFeedback from './components/Feedbacks';
+import Feedbacks from './components/Feedbacks';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -33,7 +33,7 @@ const App: React.FC = () => {
             <ProductCard />
           </div>
 
-          <ConnectedFeedback />
+          <Feedbacks />
 
           <div className={classes.root}>
             <UserCard />

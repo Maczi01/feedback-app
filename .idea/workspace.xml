@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="" />
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feedbacks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedbacks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/reducer.tsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +117,7 @@
       <workItem from="1631739851997" duration="6214000" />
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
-      <workItem from="1632176850748" duration="18672000" />
+      <workItem from="1632176850748" duration="24475000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -309,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632351688884</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fixed UserCard component">
+      <created>1632353784817</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632353784818</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +343,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added simple test" />
     <MESSAGE value="Changes in package.json, added build app script" />
     <MESSAGE value="Try with build folder" />
     <MESSAGE value="Changes in yaml github file" />
@@ -355,6 +367,7 @@
     <MESSAGE value="Fixed Feedbacks element" />
     <MESSAGE value="Changed CI elements and refactor in components" />
     <MESSAGE value="Removed unused imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed unused imports" />
+    <MESSAGE value="Fixed UserCard component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed UserCard component" />
   </component>
 </project>
