@@ -54,12 +54,10 @@ const useStyles = makeStyles((theme: Theme) => ({
     borderRadius: '10px',
     color: theme.palette.primary.dark,
     width: '100px',
-    // margin: "10px",
   },
-  bullet: {
-    display: 'inline-block',
-    margin: '0 2px',
-    transform: 'scale(0.8)',
+  head: {
+    display: 'flex',
+    justifyContent: 'space-around',
   },
   title: {
     fontSize: 14,
@@ -83,9 +81,14 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
   return (
     <Card className={classes.root}>
       <Box className={classes.bar} />
-      <Typography className={classes.body2}>
-        {title}
-      </Typography>
+      <Box className={classes.head}>
+        <Typography className={classes.body2}>
+          {title}
+        </Typography>
+        <Typography className={classes.body1}>
+          {date}
+        </Typography>
+      </Box>
       <Typography className={classes.body1}>
         {description}
       </Typography>
@@ -95,6 +98,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
             {userId}
             {' '}
             about
+            {' '}
             {productId}
           </Typography>
         </Box>

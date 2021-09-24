@@ -17,10 +17,11 @@ interface Props {
     feedbacks: Feedback[]
 }
 
-const Feedbacks: React.FC<Props> = ({ feedbacks }) => {
+const FeedbackList: React.FC<Props> = ({ feedbacks }) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
+      {/* eslint-disable-next-line max-len */}
       {feedbacks.map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
     </div>
   );
@@ -31,4 +32,4 @@ const mapStateToProps = (state: StoreState) => {
   return feedbacks;
 };
 
-export default connect(mapStateToProps)(Feedbacks);
+export default connect(mapStateToProps)(FeedbackList);
