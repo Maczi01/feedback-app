@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import { Typography } from '@material-ui/core';
+import Rating from '@mui/material/Rating';
 import progress from '../assets/progress.png';
 import ProductImageWrapper from './ProductImageWrapper';
 import { Feedback } from '../reducers/FeedbackReducer';
@@ -87,7 +88,9 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
       <Typography className={classes.body1}>
         {description}
       </Typography>
+        <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
       <CardContent className={classes.content}>
+
         <Box className={classes.comments}>
           <Typography className={classes.body3}>
             {userId}
@@ -97,7 +100,6 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
             {productId}
           </Typography>
         </Box>
-          <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
 
       </CardContent>
       <Box className={classes.comments}>
