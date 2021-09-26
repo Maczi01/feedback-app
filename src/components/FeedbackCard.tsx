@@ -81,14 +81,9 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
   return (
     <Card className={classes.root}>
       <Box className={classes.bar} />
-      <Box className={classes.head}>
-        <Typography className={classes.body2}>
-          {title}
-        </Typography>
-        <Typography className={classes.body1}>
-          {date}
-        </Typography>
-      </Box>
+      <Typography className={classes.body2}>
+        {title}
+      </Typography>
       <Typography className={classes.body1}>
         {description}
       </Typography>
@@ -102,7 +97,16 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
             {productId}
           </Typography>
         </Box>
+          <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+
       </CardContent>
+      <Box className={classes.comments}>
+        <Typography className={classes.body1}>
+          Feedback added on
+          {' '}
+          {date}
+        </Typography>
+      </Box>
     </Card>
   );
 };

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Feedbacks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +117,8 @@
       <workItem from="1631739851997" duration="6214000" />
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
-      <workItem from="1632176850748" duration="30680000" />
+      <workItem from="1632176850748" duration="33364000" />
+      <workItem from="1632652532827" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -335,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632437038279</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added view of feedback card">
+      <created>1632487764531</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632487764532</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +365,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changes in yaml github file" />
     <MESSAGE value="Refactor code (to check github actions)" />
     <MESSAGE value="Refactor code 2 (to check github actions)" />
     <MESSAGE value="Work on card (changed title font)" />
@@ -381,6 +389,7 @@
     <MESSAGE value="Fixed UserCard component" />
     <MESSAGE value="Changes in Feedbacks and reducer - added types" />
     <MESSAGE value="Added props to Feedback card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added props to Feedback card" />
+    <MESSAGE value="Added view of feedback card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added view of feedback card" />
   </component>
 </project>
