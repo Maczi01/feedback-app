@@ -9,7 +9,8 @@ export interface Feedback {
 }
 
 interface Action {
-  action: string
+  action: string,
+    type:string
 }
 
 type FeedbacksState = {
@@ -51,4 +52,11 @@ export const initialState: FeedbacksState = {
 export const feedbackReducer = (
   state: FeedbacksState = initialState,
   action: Action,
-):FeedbacksState => state;
+):FeedbacksState => {
+  switch (action.type) {
+    case 'ADD_ITEM':
+      return state;
+    default:
+      return state;
+  }
+};

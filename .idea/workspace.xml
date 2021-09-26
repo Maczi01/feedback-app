@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,7 @@
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
       <workItem from="1632176850748" duration="33364000" />
-      <workItem from="1632652532827" duration="2845000" />
+      <workItem from="1632652532827" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -355,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632654165787</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Rebuild feedback card.">
+      <created>1632656482718</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1632656482798</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +383,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Work on card (changed title font)" />
     <MESSAGE value="First version of Card finished" />
     <MESSAGE value="Added linter and libraries to linting, put template to App" />
     <MESSAGE value="Added image to main view" />
@@ -401,6 +407,7 @@
     <MESSAGE value="Added view of feedback card" />
     <MESSAGE value="Added styled elements package -" />
     <MESSAGE value="Added rating (as stub)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rating (as stub)" />
+    <MESSAGE value="Rebuild feedback card." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rebuild feedback card." />
   </component>
 </project>
