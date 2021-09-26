@@ -115,7 +115,7 @@
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
       <workItem from="1632176850748" duration="33364000" />
-      <workItem from="1632652532827" duration="1384000" />
+      <workItem from="1632652532827" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -348,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632653695518</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added rating (as stub)">
+      <created>1632654165787</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1632654165787</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +376,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Refactor code 2 (to check github actions)" />
     <MESSAGE value="Work on card (changed title font)" />
     <MESSAGE value="First version of Card finished" />
     <MESSAGE value="Added linter and libraries to linting, put template to App" />
@@ -394,6 +400,7 @@
     <MESSAGE value="Added props to Feedback card" />
     <MESSAGE value="Added view of feedback card" />
     <MESSAGE value="Added styled elements package -" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added styled elements package -" />
+    <MESSAGE value="Added rating (as stub)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rating (as stub)" />
   </component>
 </project>

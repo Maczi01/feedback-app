@@ -22,6 +22,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
+    padding: '0 10px',
+
   },
   comments: {
     display: 'flex',
@@ -64,8 +66,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     fontSize: 14,
     fontWeight: 700,
   },
-  pos: {
-    marginBottom: 12,
+  rating: {
+    padding: '0 10px',
   },
 }));
 
@@ -88,7 +90,9 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
       <Typography className={classes.body1}>
         {description}
       </Typography>
+      <Box className={classes.rating}>
         <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+      </Box>
       <CardContent className={classes.content}>
 
         <Box className={classes.comments}>
