@@ -8,8 +8,7 @@ export interface Feedback {
     grade: number
 }
 
-interface Action {
-    action: string,
+export interface Action {
     type: string,
     payload: Feedback
 }
