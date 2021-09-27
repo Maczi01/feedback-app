@@ -1,23 +1,24 @@
 export interface Feedback {
-  id: number;
-  title: string;
-  description: string;
-  productId: number;
-  userId: number;
-  date: string;
-  grade: number
+    id: number;
+    title: string;
+    description: string;
+    productId: number;
+    userId: number;
+    date: string;
+    grade: number
 }
 
 interface Action {
-  action: string,
-    type:string
+    action: string,
+    type: string,
+    payload: Feedback
 }
 
 type FeedbacksState = {
-  feedbacks: Feedback[];
+    feedbacks: Feedback[];
 };
 
-export const initialState: FeedbacksState = {
+const initialState: FeedbacksState = {
   feedbacks: [
     {
       id: 1,
@@ -37,25 +38,25 @@ export const initialState: FeedbacksState = {
       date: '09.02.2019',
       grade: 4,
     },
-    {
-      id: 3,
-      title: 'Best chair ever',
-      description: 'Nice chair for playing. Easy to assembly',
-      productId: 3,
-      userId: 2,
-      date: '09.03.2019',
-      grade: 5,
-    },
+    // {
+    //   id: 3,
+    //   title: 'Best chair ever',
+    //   description: 'Nice chair for playing. Easy to assembly',
+    //   productId: 3,
+    //   userId: 2,
+    //   date: '09.03.2019',
+    //   grade: 5,
+    // },
   ],
 };
 
 export const feedbackReducer = (
   state: FeedbacksState = initialState,
   action: Action,
-):FeedbacksState => {
+): FeedbacksState => {
   switch (action.type) {
     case 'ADD_ITEM':
-      return state;
+      return { feedbacks: [...state.feedbacks, action.payload] };
     default:
       return state;
   }
