@@ -1,12 +1,12 @@
 import React from 'react';
-import {makeStyles, Theme} from '@material-ui/core/styles';
+import { makeStyles, Theme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
-import {Typography} from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import Rating from '@mui/material/Rating';
 import Button from '@material-ui/core/Button';
-import {Feedback} from '../reducers/FeedbackReducer';
+import { Feedback } from '../reducers/FeedbackReducer';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
