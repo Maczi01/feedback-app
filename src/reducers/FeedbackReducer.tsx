@@ -56,6 +56,11 @@ export const feedbackReducer = (
   switch (action.type) {
     case 'ADD_ITEM':
       return { feedbacks: [...state.feedbacks, action.payload] };
+    case 'REMOVE_ITEM':
+      return {
+        feedbacks: [...state.feedbacks
+          .filter((feedback: Feedback) => feedback.id !== action.payload.id)],
+      };
     default:
       return state;
   }

@@ -25,8 +25,8 @@ const FeedbackList: React.FC<Props> = ({ feedbacks, addItem }) => {
   return (
     <>
       <div className={classes.root}>
-        {/* eslint-disable-next-line max-len */}
-        {feedbacks.map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
+        {feedbacks
+          .map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
       </div>
       <Button variant="contained" color="primary" onClick={addItem}>
         Click me

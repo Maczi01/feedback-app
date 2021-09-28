@@ -1,4 +1,4 @@
-import { Action, Feedback } from '../reducers/FeedbackReducer';
+import { Action } from '../reducers/FeedbackReducer';
 
 const feedbackone = {
   id: 3,
@@ -14,3 +14,8 @@ export const addItem = (): Action => ({
   type: 'ADD_ITEM',
   payload: feedbackone,
 });
+
+// export const removeItem = (id: number): Action => ({
+//   type: 'REMOVE_ITEM',
+//
+// });

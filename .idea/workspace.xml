@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
     </list>
@@ -117,7 +118,7 @@
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
       <workItem from="1632176850748" duration="33364000" />
-      <workItem from="1632652532827" duration="17718000" />
+      <workItem from="1632652532827" duration="23673000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632769786336</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Changes in action - mapDispatchToProps works ok">
+      <created>1632782822283</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1632782822303</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +407,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added image to main view" />
     <MESSAGE value="Added Feedback card" />
     <MESSAGE value="Added es lint rules" />
     <MESSAGE value="Refactor files with eslint" />
@@ -424,6 +431,7 @@
     <MESSAGE value="Rebuild feedback card." />
     <MESSAGE value="Added action in reducer (add_item)" />
     <MESSAGE value="Added action to reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added action to reducer" />
+    <MESSAGE value="Changes in action - mapDispatchToProps works ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in action - mapDispatchToProps works ok" />
   </component>
 </project>
