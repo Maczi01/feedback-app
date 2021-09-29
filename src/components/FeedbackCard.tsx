@@ -76,7 +76,7 @@ interface Props {
 
 const FeedbackCard: React.FC<Props> = ({ feedback }) => {
   const {
-    id, title, description, productId, userId, date, grade,
+    id, title, description, productId, userId, date, grade = 3,
   } = feedback;
 
   const classes = useStyles();
@@ -84,13 +84,14 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
     <Card className={classes.root}>
       <Box className={classes.bar} />
       <Typography className={classes.body2}>
-        {title}
+        { title}
       </Typography>
       <Typography className={classes.body1}>
         {description}
       </Typography>
       <Box className={classes.rating}>
-        <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
+        {id}
+        <Rating name="half-rating" defaultValue={grade} precision={0.5} />
       </Box>
       <CardContent className={classes.content}>
 

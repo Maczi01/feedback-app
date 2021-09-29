@@ -1,6 +1,6 @@
 import { Action } from '../reducers/FeedbackReducer';
 
-const feedbackone = {
+const someExampleFeedback = {
   id: 3,
   title: 'Best chair ever',
   description: 'Nice chair for playing. Easy to assembly',
@@ -12,10 +12,10 @@ const feedbackone = {
 
 export const addItem = (): Action => ({
   type: 'ADD_ITEM',
-  payload: feedbackone,
+  payload: someExampleFeedback,
 });
 
-// export const removeItem = (id: number): Action => ({
-//   type: 'REMOVE_ITEM',
-//
-// });
+export const removeItem = (id: number): Action => ({
+  type: 'REMOVE_ITEM',
+  id:
+});

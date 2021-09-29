@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,7 +116,7 @@
       <workItem from="1631825000380" duration="13328000" />
       <workItem from="1632174642893" duration="1139000" />
       <workItem from="1632176850748" duration="33364000" />
-      <workItem from="1632652532827" duration="23857000" />
+      <workItem from="1632652532827" duration="31580000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -389,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632860827382</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Changed in feedbackCard component - refactor">
+      <created>1632860967138</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1632860967138</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +419,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added es lint rules" />
     <MESSAGE value="Refactor files with eslint" />
     <MESSAGE value="Added redux to project" />
     <MESSAGE value="Changes github actions file" />
@@ -435,6 +443,7 @@
     <MESSAGE value="Added action to reducer" />
     <MESSAGE value="Changes in action - mapDispatchToProps works ok" />
     <MESSAGE value="Added remove item action to reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remove item action to reducer" />
+    <MESSAGE value="Changed in feedbackCard component - refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed in feedbackCard component - refactor" />
   </component>
 </project>
