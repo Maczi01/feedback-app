@@ -114,7 +114,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
         </Typography>
       </Box>
       <Button variant="contained" color="primary">
-        Click me
+        Remove me
         {' '}
       </Button>
     </Card>

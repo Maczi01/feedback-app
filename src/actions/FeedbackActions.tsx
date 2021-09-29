@@ -11,7 +11,7 @@ const someExampleFeedback = {
 };
 
 export const addItem = (): Action => ({
-  type: 'ADD_ITEM',
+  type: 'ADD_FEEDBACK',
   payload: someExampleFeedback,
 });
 
