@@ -15,7 +15,7 @@ export const addItem = (): Action => ({
   payload: someExampleFeedback,
 });
 
-export const removeItem = (id: number): Action => ({
-  type: 'REMOVE_ITEM',
-  id:
-});
+// export const removeItem = (id: number): Action => ({
+//   type: 'REMOVE_ITEM',
+//   id:
+// });

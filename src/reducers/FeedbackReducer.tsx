@@ -13,6 +13,16 @@ export interface Action {
     payload: Feedback
 }
 
+export interface AddFeedbackAction {
+    type: string,
+    payload: Feedback
+}
+
+export interface RemoveFeedbackAction {
+    type: string,
+    id: number
+}
+
 type FeedbacksState = {
     feedbacks: Feedback[];
 };
@@ -54,13 +64,13 @@ export const feedbackReducer = (
   action: Action,
 ): FeedbacksState => {
   switch (action.type) {
-    case 'ADD_ITEM':
+    case 'ADD_FEEDBACK':
       return { feedbacks: [...state.feedbacks, action.payload] };
-    case 'REMOVE_ITEM':
-      return {
-        feedbacks: [...state.feedbacks
-          .filter((feedback: Feedback) => feedback.id !== action.payload.id)],
-      };
+    // case 'REMOVE_FEEDBACK':
+    //   return {
+    //     feedbacks: [...state.feedbacks
+    //       .filter((feedback: Feedback) => feedback.id !== action.id)],
+    //   };
     default:
       return state;
   }
