@@ -8,19 +8,21 @@ export interface Feedback {
     grade: number
 }
 
-export interface Action {
-    type: string,
-    payload: Feedback
-}
+type Action = AddFeedbackAction | RemoveFeedbackAction
+
+// export interface Action {
+//     type: string,
+//     payload: Feedback
+// }
 
 export interface AddFeedbackAction {
-    type: string,
+    type: 'ADD_FEEDBACK',
     payload: Feedback
 }
 
 export interface RemoveFeedbackAction {
-    type: string,
-    id: number
+    type: 'REMOVE_FEEDBACK',
+    payload: {id: number}
 }
 
 type FeedbacksState = {
@@ -66,11 +68,11 @@ export const feedbackReducer = (
   switch (action.type) {
     case 'ADD_FEEDBACK':
       return { feedbacks: [...state.feedbacks, action.payload] };
-    // case 'REMOVE_FEEDBACK':
-    //   return {
-    //     feedbacks: [...state.feedbacks
-    //       .filter((feedback: Feedback) => feedback.id !== action.id)],
-    //   };
+    case 'REMOVE_FEEDBACK':
+      return {
+        feedbacks: [...state.feedbacks
+          .filter((feedback: Feedback) => feedback.id !== action.payload.id)],
+      };
     default:
       return state;
   }

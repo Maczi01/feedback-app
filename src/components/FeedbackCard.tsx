@@ -6,7 +6,9 @@ import Box from '@material-ui/core/Box';
 import { Typography } from '@material-ui/core';
 import Rating from '@mui/material/Rating';
 import Button from '@material-ui/core/Button';
+import { connect } from 'react-redux';
 import { Feedback } from '../reducers/FeedbackReducer';
+import {removeItem} from "../actions/FeedbackActions";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -120,5 +122,8 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
     </Card>
   );
 };
+const mapDispatchToProps = (dispatch: any) => ({
+  removeItem: () => dispatch(removeItem(id: number))
+});
 
-export default FeedbackCard;
+export default connect(null, mapDispatchToProps)(FeedbackCard);
