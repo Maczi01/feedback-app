@@ -7,8 +7,9 @@ import { Typography } from '@material-ui/core';
 import Rating from '@mui/material/Rating';
 import Button from '@material-ui/core/Button';
 import { connect } from 'react-redux';
+import { Dispatch } from 'redux';
 import { Feedback } from '../reducers/FeedbackReducer';
-import {removeItem} from "../actions/FeedbackActions";
+import { removeItem as removeItemFeedback } from '../actions/FeedbackActions';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -122,8 +123,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
     </Card>
   );
 };
-const mapDispatchToProps = (dispatch: any) => ({
-  removeItem: () => dispatch(removeItem(id: number))
-});
+// eslint-disable-next-line max-len
+const mapDispatchToProps = (dispatch: Dispatch) => ({ removeItem: (id: number) => dispatch(removeItemFeedback(id)) });
 
 export default connect(null, mapDispatchToProps)(FeedbackCard);

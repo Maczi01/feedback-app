@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { makeStyles } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
+import { Dispatch } from 'redux';
 import FeedbackCard from './FeedbackCard';
 import { StoreState } from '../store/store';
 import { Feedback } from '../reducers/FeedbackReducer';
@@ -41,7 +42,7 @@ const mapStateToProps = (state: StoreState) => {
   return feedbacks;
 };
 
-const mapDispatchToProps = (dispatch: any) => ({
+const mapDispatchToProps = (dispatch: Dispatch) => ({
   addItem: () => dispatch(addItemAction()),
 });
 
