@@ -74,10 +74,11 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 interface Props {
-  feedback: Feedback
+    feedback: Feedback
+    removeItem: any
 }
 
-const FeedbackCard: React.FC<Props> = ({ feedback }) => {
+const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
   const {
     id, title, description, productId, userId, date, grade = 3,
   } = feedback;
@@ -87,7 +88,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
     <Card className={classes.root}>
       <Box className={classes.bar} />
       <Typography className={classes.body2}>
-        { title}
+        {title}
       </Typography>
       <Typography className={classes.body1}>
         {description}
@@ -116,7 +117,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
           {date}
         </Typography>
       </Box>
-      <Button variant="contained" color="primary">
+      <Button variant="contained" color="primary" onClick={removeItem}>
         Remove me
         {' '}
       </Button>

@@ -1,4 +1,4 @@
-import {AddFeedbackAction, RemoveFeedbackAction} from '../reducers/FeedbackReducer';
+import { AddFeedbackAction, RemoveFeedbackAction } from '../reducers/FeedbackReducer';
 
 const feedbackone = {
   id: 3,
