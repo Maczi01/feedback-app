@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Fixed actions and reducer, added methods for components">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Fixed remove method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +110,7 @@
       <workItem from="1632652532827" duration="31580000" />
       <workItem from="1632945055274" duration="10455000" />
       <workItem from="1634247687921" duration="1331000" />
-      <workItem from="1634299544226" duration="1616000" />
+      <workItem from="1634299544226" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Configured TypeScript">
       <created>1631451223881</created>
@@ -417,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634248670721</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Fixed remove method">
+      <created>1634301191110</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1634301191110</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixed remove method">
+      <created>1634302041411</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1634302041411</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added rducer with initial state" />
     <MESSAGE value="Work on reducer" />
     <MESSAGE value="Changes in redux files" />
     <MESSAGE value="Added reducer and store" />
@@ -462,6 +471,7 @@
     <MESSAGE value="Commented some part of code - for deploy" />
     <MESSAGE value="Fixed actions and reducer (add feedback)" />
     <MESSAGE value="Fixed actions and reducer, added methods for components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed actions and reducer, added methods for components" />
+    <MESSAGE value="Fixed remove method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed remove method" />
   </component>
 </project>

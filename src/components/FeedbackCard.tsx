@@ -124,7 +124,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
     </Card>
   );
 };
-// eslint-disable-next-line max-len
-const mapDispatchToProps = (dispatch: Dispatch) => ({ removeItem: (id: number) => dispatch(removeItemFeedback(id)) });
+const mapDispatchToProps = (dispatch: Dispatch) => (
+  { removeItem: (id: number) => dispatch(removeItemFeedback(id)) });
 
 export default connect(null, mapDispatchToProps)(FeedbackCard);
