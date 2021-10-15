@@ -9,6 +9,7 @@ import PremiumAccessImage from './components/PremiumAccessImage';
 import UserCard from './components/UserCard';
 import store from './store/store';
 import FeedbackList from './components/FeedbackList';
+import MainPage from './pages/MainPage';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -25,25 +26,7 @@ const App: React.FC = () => {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <MainTemplate>
-          <PremiumAccessImage />
-          <div className={classes.root}>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-          </div>
-
-          <div>
-            <div> Last feedbacks</div>
-            <FeedbackList />
-          </div>
-
-          <div className={classes.root}>
-            <UserCard />
-            <UserCard />
-            <UserCard />
-          </div>
-        </MainTemplate>
+        <MainPage />
       </ThemeProvider>
     </Provider>
   );

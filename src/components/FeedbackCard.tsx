@@ -82,7 +82,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
   const {
     id, title, description, productId, userId, date, grade = 3,
   } = feedback;
-
+  console.log(id);
   const classes = useStyles();
   return (
     <Card className={classes.root}>
@@ -117,7 +117,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
           {date}
         </Typography>
       </Box>
-      <Button variant="contained" color="primary" onClick={removeItem}>
+      <Button variant="contained" color="primary" onClick={() => removeItem(id)}>
         Remove me
         {' '}
       </Button>
