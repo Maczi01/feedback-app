@@ -3,7 +3,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import {
   Box, Typography, Button, TextField,
 } from '@material-ui/core';
-import bulb from '../assets/bulb.svg';
+import editIcon from '../assets/editIcon.svg';
 
 const Navbar: React.FC = () => (
   <Box
@@ -12,7 +12,7 @@ const Navbar: React.FC = () => (
     data-testid="navbar"
   >
     <Toolbar color="textSecondary">
-      <img src={bulb} alt="logo" />
+      <img src={editIcon} alt="logo" />
       <Typography
         color="textSecondary"
       >
