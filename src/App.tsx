@@ -2,6 +2,8 @@ import React from 'react';
 import { makeStyles, ThemeProvider } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 import { Provider } from 'react-redux';
+import { BrowserRouter, Switch } from 'react-router-dom';
+import { Route } from 'react-router';
 import theme from './theme/theme';
 import ProductCard from './components/ProductCard';
 import MainTemplate from './templates/MainTemplate';
@@ -10,6 +12,7 @@ import UserCard from './components/UserCard';
 import store from './store/store';
 import FeedbackList from './components/FeedbackList';
 import MainPage from './pages/MainPage';
+import AddFeedbackPage from './pages/AddFeedbackPage';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -26,7 +29,12 @@ const App: React.FC = () => {
     <Provider store={store}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <MainPage />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/" component={MainPage} />
+            <Route path="/add" component={AddFeedbackPage} />
+          </Switch>
+        </BrowserRouter>
       </ThemeProvider>
     </Provider>
   );
