@@ -1,4 +1,4 @@
-import { AddFeedbackAction, RemoveFeedbackAction } from '../reducers/FeedbackReducer';
+import { AddFeedbackAction, Feedback, RemoveFeedbackAction } from '../reducers/FeedbackReducer';
 
 const feedbackone = {
   id: 3,
@@ -10,7 +10,7 @@ const feedbackone = {
   grade: 5,
 };
 
-export const addItem = (): AddFeedbackAction => ({
+export const addItem = (feedback: Feedback): AddFeedbackAction => ({
   type: 'ADD_FEEDBACK',
   payload: feedbackone,
 });

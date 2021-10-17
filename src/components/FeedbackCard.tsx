@@ -82,7 +82,6 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
   const {
     id, title, description, productId, userId, date, grade = 3,
   } = feedback;
-  console.log(id);
   const classes = useStyles();
   return (
     <Card className={classes.root}>

@@ -4,8 +4,16 @@ import { Box, TextField, Theme } from '@material-ui/core';
 import { Button, CardMedia, Typography } from '@mui/material';
 import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@mui/material/Rating';
+import { Dispatch } from 'redux';
+import { connect } from 'react-redux';
 import MainTemplate from '../templates/MainTemplate';
 import editIcon from '../assets/editIcon.svg';
+import { addItem as addItemAction } from '../actions/FeedbackActions';
+import { Feedback } from '../reducers/FeedbackReducer';
+
+interface Props {
+    addItem: any
+}
 
 const useStyles = makeStyles((theme: Theme) => ({
   form: {
@@ -31,14 +39,21 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const AddFeedbackPage: React.FC = () => {
+const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
   const { register, handleSubmit } = useForm();
 
   const [stars, setStars] = useState<number | null>(0);
-  const [result, setResult] = useState('');
+  const feedbackToAdd = {
+    id: 4,
+    title: 'new feedback',
+    description: 'new feedback description',
+    productId: 2,
+    userId: 1,
+    date: '09.02.2019',
+    grade: 4,
+  };
   const classes = useStyles();
-  const grade = 3;
-  const onSubmit = handleSubmit((data) => console.log(data));
+  const onSubmit = handleSubmit(() => addItem(feedbackToAdd));
 
   return (
     <MainTemplate>
@@ -65,11 +80,9 @@ const AddFeedbackPage: React.FC = () => {
               />
             </Box>
             {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            <TextField {...register('product')} placeholder="product name" className={classes.field} />
+            <TextField {...register('id')} placeholder="product name" className={classes.field} />
             {/* eslint-disable-next-line react/jsx-props-no-spreading */}
             <TextField {...register('title')} placeholder="title" className={classes.field} />
-            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            <TextField {...register('feedback')} placeholder="description" className={classes.field} multiline />
           </Box>
 
           <Box className={classes.buttons}>
@@ -89,4 +102,7 @@ const AddFeedbackPage: React.FC = () => {
   );
 };
 
-export default AddFeedbackPage;
+const mapDispatchToProps = (dispatch: Dispatch) => ({
+  addItem: (feedback: Feedback) => dispatch(addItemAction(feedback)),
+});
+export default connect(null, mapDispatchToProps)(AddFeedbackPage);

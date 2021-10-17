@@ -17,22 +17,18 @@ const useStyles = makeStyles(() => ({
 }));
 
 interface Props {
-    feedbacks: Feedback[]
-    addItem: any
+    feedbacks: Feedback[],
 }
 
-const FeedbackList: React.FC<Props> = ({ feedbacks, addItem }) => {
+const FeedbackList: React.FC<Props> = ({ feedbacks }) => {
   const classes = useStyles();
+  console.log(feedbacks);
   return (
     <>
       <div className={classes.root}>
         {feedbacks
           .map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
       </div>
-      <Button variant="contained" color="primary" onClick={addItem}>
-        Click me
-        {' '}
-      </Button>
     </>
   );
 };
@@ -42,8 +38,4 @@ const mapStateToProps = (state: StoreState) => {
   return feedbacks;
 };
 
-const mapDispatchToProps = (dispatch: Dispatch) => ({
-  addItem: () => dispatch(addItemAction()),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(FeedbackList);
+export default connect(mapStateToProps)(FeedbackList);

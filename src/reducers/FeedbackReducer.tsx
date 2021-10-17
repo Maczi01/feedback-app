@@ -22,7 +22,7 @@ export interface AddFeedbackAction {
 
 export interface RemoveFeedbackAction {
     type: 'REMOVE_FEEDBACK',
-    payload: {id: number}
+    payload: { id: number }
 }
 
 type FeedbacksState = {
@@ -49,15 +49,6 @@ const initialState: FeedbacksState = {
       date: '09.02.2019',
       grade: 4,
     },
-    // {
-    //   id: 3,
-    //   title: 'Best chair ever',
-    //   description: 'Nice chair for playing. Easy to assembly',
-    //   productId: 3,
-    //   userId: 2,
-    //   date: '09.03.2019',
-    //   grade: 5,
-    // },
   ],
 };
 
