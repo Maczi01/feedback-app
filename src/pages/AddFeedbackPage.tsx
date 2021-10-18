@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     flexDirection: 'column',
     backgroundColor: 'white',
     padding: '20px',
-    margin: '50px',
+    margin: '10px 50px',
     borderRadius: '10px',
   },
   field: {
@@ -38,32 +38,26 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     justifyContent: 'space-around',
   },
+  photo: {
+    width: '180px',
+    margin: '20px',
+    padding: '10px',
+  },
 }));
 
 const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, reset } = useForm<Feedback>();
 
-  const [stars, setStars] = useState<number | null>(0);
-  const feedbackToAdd = {
-    id: 4,
-    title: 'new feedback',
-    description: 'new feedback description',
-    productId: 2,
-    userId: 1,
-    date: '09.02.2019',
-    grade: 4,
-  };
-  const [feedback, setFeedback] = useState<Feedback>({
-
-  });
+  const [grade, setGrade] = useState<number | null>(0);
   const classes = useStyles();
-  const onSubmit = handleSubmit(() => addItem(feedbackToAdd));
+  const onSubmit = handleSubmit((data: Feedback) => addItem({
+    ...data, grade, date: new Date(),
+  }));
 
   return (
     <MainTemplate>
-      <Link to="/"> wroc</Link>
-
       <Box className={classes.form}>
+        <Link to="/"> back</Link>
         <Box display="flex" flexDirection="row">
           <img src={editIcon} alt="logo" />
           <Typography>
@@ -78,21 +72,31 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
               </Typography>
               <Rating
                 name="simple-controlled"
-                value={stars}
+                value={grade}
                 precision={0.5}
-                onChange={(event, newValue) => {
-                  setStars(newValue);
+                onChange={(event, value) => {
+                  setGrade(value);
                 }}
               />
             </Box>
             {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            <TextField {...register('id')} placeholder="product name" className={classes.field} />
-            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
             <TextField {...register('title')} placeholder="title" className={classes.field} />
+            {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+            <TextField {...register('description')} placeholder="description" className={classes.field} />
+            <Button color="primary" variant="contained" className={classes.photo}>
+              Add photo...
+            </Button>
           </Box>
 
           <Box className={classes.buttons}>
-            <Button color="primary" variant="contained">
+            <Button
+              color="primary"
+              variant="contained"
+              onClick={() => {
+                reset();
+                setGrade(0);
+              }}
+            >
               Clear form
             </Button>
             <Button color="secondary" variant="contained">

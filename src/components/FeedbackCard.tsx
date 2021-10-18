@@ -75,12 +75,11 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 interface Props {
     feedback: Feedback
-    removeItem: any
 }
 
-const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
+const FeedbackCard: React.FC<Props> = ({ feedback }) => {
   const {
-    id, title, description, productId, userId, date, grade = 3,
+    id, title, description, productId, userId, date, grade,
   } = feedback;
   const classes = useStyles();
   return (
@@ -94,7 +93,7 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
       </Typography>
       <Box className={classes.rating}>
         {id}
-        <Rating name="half-rating" defaultValue={grade} precision={0.5} />
+        <Rating name="read-only" value={grade} readOnly precision={0.5} />
       </Box>
       <CardContent className={classes.content}>
 
@@ -116,14 +115,8 @@ const FeedbackCard: React.FC<Props> = ({ feedback, removeItem }) => {
           {date}
         </Typography>
       </Box>
-      <Button variant="contained" color="primary" onClick={() => removeItem(id)}>
-        Remove me
-        {' '}
-      </Button>
     </Card>
   );
 };
-const mapDispatchToProps = (dispatch: Dispatch) => (
-  { removeItem: (id: number) => dispatch(removeItemFeedback(id)) });
 
-export default connect(null, mapDispatchToProps)(FeedbackCard);
+export default FeedbackCard;

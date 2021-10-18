@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Feedback } from '../reducers/FeedbackReducer';
 import PremiumAccessImage from '../components/PremiumAccessImage';
 import ProductCard from '../components/ProductCard';
 import FeedbackList from '../components/FeedbackList';

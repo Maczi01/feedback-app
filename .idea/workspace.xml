@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Changed example data">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Fixed form - pass values into state">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +119,7 @@
       <workItem from="1634299544226" duration="4665000" />
       <workItem from="1634378084821" duration="11392000" />
       <workItem from="1634477062045" duration="9118000" />
-      <workItem from="1634584865853" duration="1565000" />
-    </task>
-    <task id="LOCAL-00001" summary="Configured TypeScript">
-      <created>1631451223881</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1631451223881</updated>
+      <workItem from="1634584865853" duration="6524000" />
     </task>
     <task id="LOCAL-00002" summary="Changes in default theme (overrided)">
       <created>1631480236770</created>
@@ -464,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634485090470</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Changes in AddFeedbackPage, correct adding feedbacks">
+      <created>1634586482266</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1634586482267</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,8 +484,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed reducers" />
-    <MESSAGE value="Changed Feedbacks list" />
     <MESSAGE value="Fixed Feedbacks element" />
     <MESSAGE value="Changed CI elements and refactor in components" />
     <MESSAGE value="Removed unused imports" />
@@ -509,7 +507,9 @@
     <MESSAGE value="Added methods and fields to form" />
     <MESSAGE value="Problems with add item" />
     <MESSAGE value="Changed example data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed example data" />
+    <MESSAGE value="Changes in AddFeedbackPage, correct adding feedbacks" />
+    <MESSAGE value="Fixed form - pass values into state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed form - pass values into state" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
