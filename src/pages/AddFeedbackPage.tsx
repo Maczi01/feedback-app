@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@mui/material/Rating';
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import MainTemplate from '../templates/MainTemplate';
 import editIcon from '../assets/editIcon.svg';
 import { addItem as addItemAction } from '../actions/FeedbackActions';
@@ -52,11 +53,16 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
     date: '09.02.2019',
     grade: 4,
   };
+  const [feedback, setFeedback] = useState<Feedback>({
+
+  });
   const classes = useStyles();
   const onSubmit = handleSubmit(() => addItem(feedbackToAdd));
 
   return (
     <MainTemplate>
+      <Link to="/"> wroc</Link>
+
       <Box className={classes.form}>
         <Box display="flex" flexDirection="row">
           <img src={editIcon} alt="logo" />

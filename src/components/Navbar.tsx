@@ -3,6 +3,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import {
   Box, Typography, Button, TextField,
 } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import editIcon from '../assets/editIcon.svg';
 
 const Navbar: React.FC = () => (
@@ -20,6 +21,9 @@ const Navbar: React.FC = () => (
       </Typography>
       <Button variant="contained">Default</Button>
       <Button variant="contained">Default</Button>
+      <Link to="/add">
+        <Button variant="contained">Add feedback</Button>
+      </Link>
       <TextField id="outlined-basic" label="Outlined" variant="outlined" />
     </Toolbar>
   </Box>
