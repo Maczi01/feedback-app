@@ -1,0 +1,48 @@
+{
+  "feedbacks": [
+    {
+      "id": 1,
+      "title": "Add tags for solutions",
+      "description": "Easier to search for solutions based on a specific stack.",
+      "productId": 1,
+      "userId": 1,
+      "date": "09.02.2019",
+      "grade": 5
+    },
+    {
+      "id": 2,
+      "title": "Very good glass",
+      "description": "Easier to search for solutions based on a specific stack.",
+      "productId": 2,
+      "userId": 1,
+      "date": "09.02.2019",
+      "grade": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Albert"
+    },
+    {
+      "id": 3,
+      "name": "Diana"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "chair",
+      "category": "home"
+    },
+    {
+      "id": 2,
+      "name": "TV",
+      "category": "electronic"
+    }
+  ]
+}
