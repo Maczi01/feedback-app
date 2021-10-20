@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import MainTemplate from '../templates/MainTemplate';
 import editIcon from '../assets/editIcon.svg';
-import { addItem as addItemAction } from '../actions/FeedbackActions';
+import { addFeedback as addItemAction } from '../actions/FeedbackActions';
 import { Feedback } from '../reducers/FeedbackReducer';
 
 interface Props {

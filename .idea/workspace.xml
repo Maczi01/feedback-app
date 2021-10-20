@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added reset to clear form">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Installed json-server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../favnote" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/easyfit/easyfit-ui" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -123,21 +126,7 @@
       <workItem from="1634477062045" duration="9118000" />
       <workItem from="1634584865853" duration="7146000" />
       <workItem from="1634683657261" duration="1086000" />
-      <workItem from="1634749740017" duration="1908000" />
-    </task>
-    <task id="LOCAL-00003" summary="Changes global theme, foooter and navbar">
-      <created>1631484104892</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1631484104892</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added card components.">
-      <created>1631537396358</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1631537396358</updated>
+      <workItem from="1634749740017" duration="8076000" />
     </task>
     <task id="LOCAL-00005" summary="Added simple test">
       <created>1631554286957</created>
@@ -468,7 +457,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634594305817</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Installed json-server">
+      <created>1634762107965</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1634762107966</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Installed json-server">
+      <created>1634762144682</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1634762144682</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed CI elements and refactor in components" />
     <MESSAGE value="Removed unused imports" />
     <MESSAGE value="Fixed UserCard component" />
     <MESSAGE value="Changes in Feedbacks and reducer - added types" />
@@ -513,7 +515,8 @@
     <MESSAGE value="Changes in AddFeedbackPage, correct adding feedbacks" />
     <MESSAGE value="Fixed form - pass values into state" />
     <MESSAGE value="Added reset to clear form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added reset to clear form" />
+    <MESSAGE value="Installed json-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed json-server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { makeStyles } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
-import { Dispatch } from 'redux';
 import FeedbackCard from './FeedbackCard';
 import { StoreState } from '../store/store';
 import { Feedback } from '../reducers/FeedbackReducer';
-import { addItem as addItemAction } from '../actions/FeedbackActions';
+import { getFeedbackList } from '../actions/FeedbackActions';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -18,15 +16,19 @@ const useStyles = makeStyles(() => ({
 
 interface Props {
     feedbacks: Feedback[],
+    getFeedbacks: any
 }
 
-const FeedbackList: React.FC<Props> = ({ feedbacks }) => {
+const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
   const classes = useStyles();
-  console.log(feedbacks);
+  useEffect(() => {
+    getFeedbacks();
+  }, []);
+
   return (
     <>
       <div className={classes.root}>
-        {feedbacks
+        {feedbacks && feedbacks
           .map((feedback: Feedback) => <FeedbackCard key={feedback.id} feedback={feedback} />)}
       </div>
     </>
@@ -38,4 +40,8 @@ const mapStateToProps = (state: StoreState) => {
   return feedbacks;
 };
 
-export default connect(mapStateToProps)(FeedbackList);
+const mapDispatchToProps = (dispatch: any) => ({
+  getFeedbacks: () => dispatch(getFeedbackList()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(FeedbackList);
