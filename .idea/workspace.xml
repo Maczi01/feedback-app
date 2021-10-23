@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Changed db json file and reducer">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Work on types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,14 +127,7 @@
       <workItem from="1634749740017" duration="8493000" />
       <workItem from="1634835373483" duration="6593000" />
       <workItem from="1634904971715" duration="1663000" />
-      <workItem from="1635014293799" duration="1881000" />
-    </task>
-    <task id="LOCAL-00006" summary="Changes in package.json, added build app script">
-      <created>1631554610878</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1631554610879</updated>
+      <workItem from="1635014293799" duration="3802000" />
     </task>
     <task id="LOCAL-00007" summary="Try with build folder">
       <created>1631558184014</created>
@@ -475,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634769687044</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Work on types">
+      <created>1635016201803</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1635016201803</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changes in Feedbacks and reducer - added types" />
     <MESSAGE value="Added props to Feedback card" />
     <MESSAGE value="Added view of feedback card" />
     <MESSAGE value="Added styled elements package -" />
@@ -520,7 +516,8 @@
     <MESSAGE value="Installed json-server" />
     <MESSAGE value="Added Action to fetch feedbacks" />
     <MESSAGE value="Changed db json file and reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed db json file and reducer" />
+    <MESSAGE value="Work on types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on types" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

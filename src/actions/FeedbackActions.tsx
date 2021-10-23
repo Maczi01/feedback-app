@@ -16,7 +16,7 @@ export const getFeedbackList = () => (dispatch: Dispatch) => {
     type: 'FEEDBACKS_REQUEST',
   });
   const url = 'http://localhost:8000/feedbacks';
-  return fetch(url)
+  fetch(url)
     .then((data) => data.json())
     .then((payload) => {
       dispatch({
@@ -29,7 +29,8 @@ export const getFeedbackList = () => (dispatch: Dispatch) => {
 
 export const addFeedback = (feedback: Feedback) => (dispatch: Dispatch) => {
   dispatch({
-    type: 'FEEDBACKS_REQUEST',
+    type: 'ADD_FEEDBACK',
+    payload: feedback,
   });
   const url = 'http://localhost:8000/feedbacks';
   fetch(url, {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Box, TextField, Theme } from '@material-ui/core';
-import { Button, CardMedia, Typography } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@mui/material/Rating';
 import { Dispatch } from 'redux';
@@ -112,7 +112,7 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
   );
 };
 
-const mapDispatchToProps = (dispatch: Dispatch) => ({
+const mapDispatchToProps = (dispatch: any) => ({
   addItem: (feedback: Feedback) => dispatch(addItemAction(feedback)),
 });
 export default connect(null, mapDispatchToProps)(AddFeedbackPage);
