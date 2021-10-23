@@ -13,7 +13,7 @@ import { addFeedback as addItemAction } from '../actions/FeedbackActions';
 import { Feedback } from '../reducers/FeedbackReducer';
 
 interface Props {
-    addItem: any
+    addItem: (feedback: Feedback) => void
 }
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -51,7 +51,7 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
   const [grade, setGrade] = useState<number | null>(0);
   const classes = useStyles();
   const onSubmit = handleSubmit((data: Feedback) => addItem({
-    ...data, grade, date: new Date(),
+    ...data, grade, date: (new Date()).toString(),
   }));
 
   return (

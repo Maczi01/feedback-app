@@ -9,7 +9,6 @@ import Button from '@material-ui/core/Button';
 import { connect } from 'react-redux';
 import { Dispatch } from 'redux';
 import { Feedback } from '../reducers/FeedbackReducer';
-import { removeItem as removeItemFeedback } from '../actions/FeedbackActions';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -79,7 +78,7 @@ interface Props {
 
 const FeedbackCard: React.FC<Props> = ({ feedback }) => {
   const {
-    id, title, description, productId, userId, date, grade,
+    id, title, description, product, user, date, grade,
   } = feedback;
   const classes = useStyles();
   return (
@@ -99,11 +98,11 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
 
         <Box className={classes.comments}>
           <Typography className={classes.body3}>
-            {userId}
+            {user && user.name}
             {' '}
             about
             {' '}
-            {productId}
+            {product && product.name}
           </Typography>
         </Box>
 

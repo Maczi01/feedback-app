@@ -2,10 +2,16 @@ export interface Feedback {
     id: number;
     title: string;
     description: string;
-    productId: number;
-    userId: number;
+    product: {
+        id: number,
+        name: string
+    };
+    user: {
+        id: number,
+        name: string
+    };
     date: string;
-    grade: number
+    grade: number | null
 }
 
 type Action = AddFeedbackAction | RemoveFeedbackAction | GetFeedbacks | FeedbacksList
@@ -32,7 +38,7 @@ export interface FeedbacksList {
 type FeedbacksState = {
     feedbacks: Feedback[];
 };
-
+// TODO loading and  error
 export const feedbackReducer = (
   state: FeedbacksState = { feedbacks: [] },
   action: Action,

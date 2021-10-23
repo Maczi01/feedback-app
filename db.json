@@ -4,8 +4,14 @@
       "id": 1,
       "title": "Add tags for solutions",
       "description": "Easier to search for solutions based on a specific stack.",
-      "productId": 1,
-      "userId": 1,
+      "product": {
+        "id": 1,
+        "name": "Wersalka"
+      },
+      "user": {
+        "id": 1,
+        "name": "Marian"
+      },
       "date": "09.02.2019",
       "grade": 5
     },
@@ -13,8 +19,14 @@
       "id": 2,
       "title": "Very good glass",
       "description": "Easier to search for solutions based on a specific stack.",
-      "productId": 2,
-      "userId": 1,
+      "product": {
+        "id": 1,
+        "name": "Suszarka"
+      },
+      "user": {
+        "id": 1,
+        "name": "Maciek"
+      },
       "date": "09.02.2019",
       "grade": 4
     }

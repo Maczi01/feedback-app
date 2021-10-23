@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Installed json-server">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Changed db json file and reducer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,14 +127,10 @@
       <workItem from="1634477062045" duration="9118000" />
       <workItem from="1634584865853" duration="7146000" />
       <workItem from="1634683657261" duration="1086000" />
-      <workItem from="1634749740017" duration="8076000" />
-    </task>
-    <task id="LOCAL-00005" summary="Added simple test">
-      <created>1631554286957</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1631554286957</updated>
+      <workItem from="1634749740017" duration="8493000" />
+      <workItem from="1634835373483" duration="6593000" />
+      <workItem from="1634904971715" duration="1663000" />
+      <workItem from="1635014293799" duration="1881000" />
     </task>
     <task id="LOCAL-00006" summary="Changes in package.json, added build app script">
       <created>1631554610878</created>
@@ -471,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634762144682</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Added Action to fetch feedbacks">
+      <created>1634769687044</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1634769687044</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed unused imports" />
-    <MESSAGE value="Fixed UserCard component" />
     <MESSAGE value="Changes in Feedbacks and reducer - added types" />
     <MESSAGE value="Added props to Feedback card" />
     <MESSAGE value="Added view of feedback card" />
@@ -516,7 +518,9 @@
     <MESSAGE value="Fixed form - pass values into state" />
     <MESSAGE value="Added reset to clear form" />
     <MESSAGE value="Installed json-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed json-server" />
+    <MESSAGE value="Added Action to fetch feedbacks" />
+    <MESSAGE value="Changed db json file and reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed db json file and reducer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

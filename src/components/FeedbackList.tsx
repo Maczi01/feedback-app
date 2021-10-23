@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import { connect, ConnectedProps } from 'react-redux';
 import { makeStyles } from '@material-ui/core';
+import { AnyAction, Dispatch } from 'redux';
 import FeedbackCard from './FeedbackCard';
 import { StoreState } from '../store/store';
 import { Feedback } from '../reducers/FeedbackReducer';
@@ -14,9 +15,21 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
+const mapStateToProps = (state: StoreState) => {
+  const { feedbacks } = state;
+  return feedbacks;
+};
+
+const mapDispatchToProps = (dispatch: any) => ({
+  getFeedbacks: () => dispatch(getFeedbackList()),
+});
+// const connector = connect(mapStateToProps, mapDispatchToProps);
+
+// type PropsFromRedux = ConnectedProps<typeof connector>
+
 interface Props {
     feedbacks: Feedback[],
-    getFeedbacks: any
+    getFeedbacks: () => void
 }
 
 const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
@@ -24,6 +37,7 @@ const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
   useEffect(() => {
     getFeedbacks();
   }, []);
+  console.log(feedbacks);
 
   return (
     <>
@@ -35,13 +49,6 @@ const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
   );
 };
 
-const mapStateToProps = (state: StoreState) => {
-  const { feedbacks } = state;
-  return feedbacks;
-};
-
-const mapDispatchToProps = (dispatch: any) => ({
-  getFeedbacks: () => dispatch(getFeedbackList()),
-});
-
 export default connect(mapStateToProps, mapDispatchToProps)(FeedbackList);
+
+// https://redux.js.org/usage/usage-with-typescript : Typing the connect higher order component
