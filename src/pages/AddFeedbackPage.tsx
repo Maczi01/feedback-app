@@ -4,7 +4,6 @@ import { Box, TextField, Theme } from '@material-ui/core';
 import { Button, Typography } from '@mui/material';
 import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@mui/material/Rating';
-import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import MainTemplate from '../templates/MainTemplate';
@@ -47,7 +46,6 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
   const { register, handleSubmit, reset } = useForm<Feedback>();
-
   const [grade, setGrade] = useState<number | null>(0);
   const classes = useStyles();
   const onSubmit = handleSubmit((data: Feedback) => addItem({
@@ -111,7 +109,7 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
     </MainTemplate>
   );
 };
-
+// TODO : add types to dispatch
 const mapDispatchToProps = (dispatch: any) => ({
   addItem: (feedback: Feedback) => dispatch(addItemAction(feedback)),
 });

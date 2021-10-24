@@ -23,14 +23,18 @@ const mapStateToProps = (state: StoreState) => {
 const mapDispatchToProps = (dispatch: any) => ({
   getFeedbacks: () => dispatch(getFeedbackList()),
 });
-// const connector = connect(mapStateToProps, mapDispatchToProps);
+const connector = connect(mapStateToProps, mapDispatchToProps);
 
 // type PropsFromRedux = ConnectedProps<typeof connector>
 
 interface Props {
     feedbacks: Feedback[],
-    getFeedbacks: () => void
+    getFeedbacks: any
 }
+// type Props = PropsFromRedux & {
+//     feedbacks: Feedback[],
+//     getFeedbacks: (feedback: Feedback) => void
+// }
 
 const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
   const classes = useStyles();
@@ -49,6 +53,6 @@ const FeedbackList: React.FC<Props> = ({ feedbacks, getFeedbacks }) => {
   );
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(FeedbackList);
-
+// export default connect(mapStateToProps, mapDispatchToProps)(FeedbackList);
+export default connector(FeedbackList);
 // https://redux.js.org/usage/usage-with-typescript : Typing the connect higher order component

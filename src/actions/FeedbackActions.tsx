@@ -1,5 +1,7 @@
-import { Dispatch } from 'redux';
-import { AddFeedbackAction, Feedback, RemoveFeedbackAction } from '../reducers/FeedbackReducer';
+import { AnyAction, Dispatch } from 'redux';
+import {
+  AddFeedbackAction, Feedback, RemoveFeedbackAction,
+} from '../reducers/FeedbackReducer';
 
 // export const addFeedback = (feedback: Feedback): AddFeedbackAction => ({
 //   type: 'ADD_FEEDBACK',

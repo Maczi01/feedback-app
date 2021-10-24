@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Work on types">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Refactor, removed unused imports">
+      <change afterPath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +24,9 @@
         <option value="HTML File" />
         <option value="package.json" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -62,7 +65,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Admin\WebstormProjects\feedback-app\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.TypeScript" />
     <property name="ts.external.directory.path" value="C:\Users\mateu\WebstormProjects\feedback-app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -127,14 +130,7 @@
       <workItem from="1634749740017" duration="8493000" />
       <workItem from="1634835373483" duration="6593000" />
       <workItem from="1634904971715" duration="1663000" />
-      <workItem from="1635014293799" duration="3802000" />
-    </task>
-    <task id="LOCAL-00007" summary="Try with build folder">
-      <created>1631558184014</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1631558184014</updated>
+      <workItem from="1635014293799" duration="8719000" />
     </task>
     <task id="LOCAL-00008" summary="Changes in yaml github file">
       <created>1631559264528</created>
@@ -472,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635016201803</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Fixed redux actions - add feedback and get list">
+      <created>1635018160527</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1635018160527</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added props to Feedback card" />
-    <MESSAGE value="Added view of feedback card" />
     <MESSAGE value="Added styled elements package -" />
     <MESSAGE value="Added rating (as stub)" />
     <MESSAGE value="Rebuild feedback card." />
@@ -517,7 +518,9 @@
     <MESSAGE value="Added Action to fetch feedbacks" />
     <MESSAGE value="Changed db json file and reducer" />
     <MESSAGE value="Work on types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on types" />
+    <MESSAGE value="Fixed redux actions - add feedback and get list" />
+    <MESSAGE value="Refactor, removed unused imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor, removed unused imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

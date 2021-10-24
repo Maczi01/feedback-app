@@ -5,9 +5,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
 import { Typography } from '@material-ui/core';
 import Rating from '@mui/material/Rating';
-import Button from '@material-ui/core/Button';
-import { connect } from 'react-redux';
-import { Dispatch } from 'redux';
 import { Feedback } from '../reducers/FeedbackReducer';
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -95,22 +92,17 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
         <Rating name="read-only" value={grade} readOnly precision={0.5} />
       </Box>
       <CardContent className={classes.content}>
-
         <Box className={classes.comments}>
           <Typography className={classes.body3}>
             {user && user.name}
-            {' '}
             about
-            {' '}
             {product && product.name}
           </Typography>
         </Box>
-
       </CardContent>
       <Box className={classes.comments}>
         <Typography className={classes.body1}>
           Feedback added on
-          {' '}
           {date}
         </Typography>
       </Box>

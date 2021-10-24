@@ -13,6 +13,7 @@ import store from './store/store';
 import FeedbackList from './components/FeedbackList';
 import MainPage from './pages/MainPage';
 import AddFeedbackPage from './pages/AddFeedbackPage';
+import UserCommentsPage from './pages/UserCommentsPage';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -33,6 +34,7 @@ const App: React.FC = () => {
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route path="/add" component={AddFeedbackPage} />
+            <Route path="/user" component={UserCommentsPage} />
           </Switch>
         </BrowserRouter>
       </ThemeProvider>
