@@ -88,14 +88,15 @@ const FeedbackCard: React.FC<Props> = ({ feedback }) => {
         {description}
       </Typography>
       <Box className={classes.rating}>
-        {id}
         <Rating name="read-only" value={grade} readOnly precision={0.5} />
       </Box>
       <CardContent className={classes.content}>
         <Box className={classes.comments}>
           <Typography className={classes.body3}>
             {user && user.name}
+            {' '}
             about
+            {' '}
             {product && product.name}
           </Typography>
         </Box>
