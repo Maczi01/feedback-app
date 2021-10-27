@@ -45,7 +45,15 @@ const useStyles = makeStyles((theme: Theme) => ({
     backgroundColor: 'pink',
     borderRadius: '10px',
   },
-
+  body2: {
+    fontSize: 16,
+    fontWeight: theme.typography.fontWeightBold,
+    margin: '10px',
+  },
+  body1: {
+    fontSize: 16,
+    margin: '10px',
+  },
   field: {
     margin: '20px',
     padding: '10px',
@@ -92,7 +100,13 @@ const UserCommentsPage: React.FC = () => {
             </Typography>
           </Box>
           <Box className={classes.commentCard}>
-            hi
+            <Typography className={classes.body2}>
+              Very nice kettel
+            </Typography>
+            <Typography className={classes.body1}>
+              Useful, low energy consumption, cheap price.
+            </Typography>
+            {' '}
           </Box>
         </Box>
       </Box>
