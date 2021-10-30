@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Refactor, removed unused imports">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added title and description to comment card">
+      <change afterPath="$PROJECT_DIR$/src/components/UserCommentCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,21 +129,8 @@
       <workItem from="1634904971715" duration="1663000" />
       <workItem from="1635014293799" duration="8719000" />
       <workItem from="1635112126731" duration="657000" />
-      <workItem from="1635364880897" duration="4246000" />
-    </task>
-    <task id="LOCAL-00009" summary="Refactor code (to check github actions)">
-      <created>1631559635976</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1631559635976</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Refactor code 2 (to check github actions)">
-      <created>1631559887500</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1631559887500</updated>
+      <workItem from="1635364880897" duration="5990000" />
+      <workItem from="1635607226206" duration="2326000" />
     </task>
     <task id="LOCAL-00011" summary="Work on card (changed title font)">
       <created>1631563994537</created>
@@ -473,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635112141742</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Modified user comments page">
+      <created>1635370288358</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1635370288358</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added title and description to comment card">
+      <created>1635370457378</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1635370457378</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added styled elements package -" />
-    <MESSAGE value="Added rating (as stub)" />
     <MESSAGE value="Rebuild feedback card." />
     <MESSAGE value="Added action in reducer (add_item)" />
     <MESSAGE value="Added action to reducer" />
@@ -518,7 +518,9 @@
     <MESSAGE value="Work on types" />
     <MESSAGE value="Fixed redux actions - add feedback and get list" />
     <MESSAGE value="Refactor, removed unused imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor, removed unused imports" />
+    <MESSAGE value="Modified user comments page" />
+    <MESSAGE value="Added title and description to comment card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added title and description to comment card" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

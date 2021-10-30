@@ -10,6 +10,7 @@ import PremiumAccessImage from '../components/PremiumAccessImage';
 import UserInfoImage from '../components/UserInfoImage';
 import Navbar from '../components/Navbar';
 import editIcon from '../assets/editIcon.svg';
+import UserCommentCard from '../components/UserCommentCard';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -99,15 +100,9 @@ const UserCommentsPage: React.FC = () => {
 
             </Typography>
           </Box>
-          <Box className={classes.commentCard}>
-            <Typography className={classes.body2}>
-              Very nice kettel
-            </Typography>
-            <Typography className={classes.body1}>
-              Useful, low energy consumption, cheap price.
-            </Typography>
-            {' '}
-          </Box>
+          <UserCommentCard />
+          <UserCommentCard />
+          <UserCommentCard />
         </Box>
       </Box>
     </MainTemplate>

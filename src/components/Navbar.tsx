@@ -19,8 +19,9 @@ const Navbar: React.FC = () => (
       >
         Navbar
       </Typography>
-      <Button variant="contained">Default</Button>
-      <Button variant="contained">Default</Button>
+      <Link to="/user">
+        <Button variant="contained">User</Button>
+      </Link>
       <Link to="/add">
         <Button variant="contained">Add feedback</Button>
       </Link>
