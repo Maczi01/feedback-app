@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box } from '@mui/material';
+import { Box, ToggleButton, ToggleButtonGroup } from '@mui/material';
 import { makeStyles } from '@material-ui/core/styles';
 import {
   Button, TextField, Theme, Typography,
@@ -11,6 +11,7 @@ import UserInfoImage from '../components/UserInfoImage';
 import Navbar from '../components/Navbar';
 import editIcon from '../assets/editIcon.svg';
 import UserCommentCard from '../components/UserCommentCard';
+import UserCommentInfo from '../components/UserCommentInfo';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   bio: {
     display: 'flex',
     flexDirection: 'column',
-    width: '550px',
+    width: '300px',
     margin: '10px',
   },
   bar: {
@@ -68,6 +69,10 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: '20px',
     padding: '10px',
   },
+  some: {
+    display: 'flex',
+    flexDirection: 'column',  q
+  },
 }));
 
 const UserCommentsPage: React.FC = () => {
@@ -78,28 +83,34 @@ const UserCommentsPage: React.FC = () => {
 
         <Box className={classes.bio}>
           <UserInfoImage />
-        </Box>
 
-        <Box className={classes.comments}>
-          <Box
-            className={classes.bar}
-            bgcolor="text.primary "
-            position="static"
-            data-testid="navbar"
-          >
-            <Typography
-              color="textSecondary"
+          <Box className={classes.bio}>
+
+            <ToggleButtonGroup
+                            // value={alignment}
+              exclusive
+                            // onChange={handleAlignment}
+              aria-label="text alignment"
+              className={classes.some}
             >
-              Sort by
+              <ToggleButton value="left" aria-label="left aligned">
+                <Button variant="contained"> User</Button>
+              </ToggleButton>
+              <ToggleButton value="center" aria-label="centered">
+                <Button variant="contained">User</Button>
 
-            </Typography>
-            <Typography
-              color="textSecondary"
-            >
-              Most relevant
-
-            </Typography>
+              </ToggleButton>
+              <ToggleButton value="right" aria-label="right aligned">
+                <Button variant="contained">User</Button>
+              </ToggleButton>
+              <ToggleButton value="justify" aria-label="justified" disabled>
+                <Button variant="contained">User</Button>
+              </ToggleButton>
+            </ToggleButtonGroup>
           </Box>
+        </Box>
+        <Box className={classes.comments}>
+          <UserCommentInfo />
           <UserCommentCard />
           <UserCommentCard />
           <UserCommentCard />
