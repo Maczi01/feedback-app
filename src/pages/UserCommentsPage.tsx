@@ -24,6 +24,14 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: '300px',
     margin: '10px',
   },
+  categories: {
+    display: 'flex',
+    flexDirection: 'column',
+    margin: '10px 20px',
+    backgroundColor: theme.palette.text.primary,
+    borderRadius: '10px',
+    // width: '100%',
+  },
   bar: {
     display: 'flex',
     width: '100%',
@@ -69,9 +77,10 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: '20px',
     padding: '10px',
   },
-  some: {
+  buttonsGroup: {
     display: 'flex',
-    flexDirection: 'column',  q
+    flexDirection: 'row',
+    flexWrap: 'wrap',
   },
 }));
 
@@ -84,27 +93,26 @@ const UserCommentsPage: React.FC = () => {
         <Box className={classes.bio}>
           <UserInfoImage />
 
-          <Box className={classes.bio}>
+          <Box className={classes.categories}>
 
             <ToggleButtonGroup
                             // value={alignment}
-              exclusive
+              // exclusive
                             // onChange={handleAlignment}
               aria-label="text alignment"
-              className={classes.some}
+              className={classes.buttonsGroup}
             >
               <ToggleButton value="left" aria-label="left aligned">
-                <Button variant="contained"> User</Button>
+                <Button size="small" variant="contained"> User</Button>
               </ToggleButton>
               <ToggleButton value="center" aria-label="centered">
-                <Button variant="contained">User</Button>
-
+                <Button size="small" variant="contained"> User</Button>
               </ToggleButton>
               <ToggleButton value="right" aria-label="right aligned">
-                <Button variant="contained">User</Button>
+                <Button size="small" variant="contained"> User</Button>
               </ToggleButton>
               <ToggleButton value="justify" aria-label="justified" disabled>
-                <Button variant="contained">User</Button>
+                <Button size="small" variant="contained"> User</Button>
               </ToggleButton>
             </ToggleButtonGroup>
           </Box>

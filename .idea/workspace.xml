@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added user comment card">
-      <change afterPath="$PROJECT_DIR$/src/components/UserCommentInfo.tsx" afterDir="false" />
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added user comment info component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserInfoImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfoImage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,14 +129,8 @@
       <workItem from="1635014293799" duration="8719000" />
       <workItem from="1635112126731" duration="657000" />
       <workItem from="1635364880897" duration="5990000" />
-      <workItem from="1635607226206" duration="6617000" />
-    </task>
-    <task id="LOCAL-00012" summary="First version of Card finished">
-      <created>1631568867883</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1631568867883</updated>
+      <workItem from="1635607226206" duration="7295000" />
+      <workItem from="1635888559564" duration="2897000" />
     </task>
     <task id="LOCAL-00013" summary="Added linter and libraries to linting, put template to App">
       <created>1631624186459</created>
@@ -474,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635613320783</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Added user comment info component">
+      <created>1635628306681</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1635628306681</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added action in reducer (add_item)" />
     <MESSAGE value="Added action to reducer" />
     <MESSAGE value="Changes in action - mapDispatchToProps works ok" />
     <MESSAGE value="Added remove item action to reducer" />
@@ -519,7 +519,8 @@
     <MESSAGE value="Modified user comments page" />
     <MESSAGE value="Added title and description to comment card" />
     <MESSAGE value="Added user comment card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added user comment card" />
+    <MESSAGE value="Added user comment info component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user comment info component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

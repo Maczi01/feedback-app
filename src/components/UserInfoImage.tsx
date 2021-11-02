@@ -3,6 +3,8 @@ import {
   Box, CardMedia, makeStyles, Theme, Typography,
 } from '@material-ui/core';
 import ombre from '../assets/ombre.svg';
+// import image-elijah from '../assets/user-images/image-elijah.svg';
+import elijah from '../assets/user-images/image-elijah.jpg';
 
 const useStyles = makeStyles((theme: Theme) => ({
   card: {
@@ -38,11 +40,8 @@ const UserInfoImage: React.FC = () => {
         className={classes.media}
       />
       <Typography component="div" className={classes.texts}>
-        <Box fontSize={32} fontWeight="fontWeightBold">
-          Read our premium reviews
-        </Box>
         <Box fontSize={24} fontWeight="fontWeightMedium">
-          Written by our experts
+          User info
         </Box>
       </Typography>
     </Box>
