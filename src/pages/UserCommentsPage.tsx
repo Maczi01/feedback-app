@@ -1,15 +1,9 @@
-import React, { useState } from 'react';
-import { Box, ToggleButton, ToggleButtonGroup } from '@mui/material';
-import { makeStyles } from '@material-ui/core/styles';
-import {
-  Button, TextField, Theme, Typography,
-} from '@material-ui/core';
-import Toolbar from '@material-ui/core/Toolbar';
+import React from 'react';
+import {Box, ToggleButton, ToggleButtonGroup} from '@mui/material';
+import {makeStyles} from '@material-ui/core/styles';
+import {Button, Theme,} from '@material-ui/core';
 import MainTemplate from '../templates/MainTemplate';
-import PremiumAccessImage from '../components/PremiumAccessImage';
 import UserInfoImage from '../components/UserInfoImage';
-import Navbar from '../components/Navbar';
-import editIcon from '../assets/editIcon.svg';
 import UserCommentCard from '../components/UserCommentCard';
 import UserCommentInfo from '../components/UserCommentInfo';
 
