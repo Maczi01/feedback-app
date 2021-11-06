@@ -35,6 +35,7 @@ const App: React.FC = () => {
             <Route exact path="/" component={MainPage} />
             <Route path="/add" component={AddFeedbackPage} />
             <Route path="/user" component={UserCommentsPage} />
+            <Route path="/login" component={LoginPage} />
           </Switch>
         </BrowserRouter>
       </ThemeProvider>

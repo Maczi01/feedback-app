@@ -1,7 +1,7 @@
 import React from 'react';
-import {Box, ToggleButton, ToggleButtonGroup} from '@mui/material';
-import {makeStyles} from '@material-ui/core/styles';
-import {Button, Theme,} from '@material-ui/core';
+import { Box, ToggleButton, ToggleButtonGroup } from '@mui/material';
+import { makeStyles } from '@material-ui/core/styles';
+import { Button, Theme } from '@material-ui/core';
 import MainTemplate from '../templates/MainTemplate';
 import UserInfoImage from '../components/UserInfoImage';
 import UserCommentCard from '../components/UserCommentCard';

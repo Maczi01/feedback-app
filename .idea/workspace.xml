@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added category buttons on user site">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Removed unused imports">
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +133,8 @@
       <workItem from="1635364880897" duration="5990000" />
       <workItem from="1635607226206" duration="7295000" />
       <workItem from="1635888559564" duration="3345000" />
-      <workItem from="1636136020833" duration="808000" />
-    </task>
-    <task id="LOCAL-00014" summary="Added image to main view">
-      <created>1631659215123</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1631659215124</updated>
+      <workItem from="1636136020833" duration="2635000" />
+      <workItem from="1636212670420" duration="459000" />
     </task>
     <task id="LOCAL-00015" summary="Added Feedback card">
       <created>1631698450859</created>
@@ -474,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635892310502</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Removed unused imports">
+      <created>1636154610712</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1636154610713</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changes in action - mapDispatchToProps works ok" />
     <MESSAGE value="Added remove item action to reducer" />
     <MESSAGE value="Changed in feedbackCard component - refactor" />
     <MESSAGE value="Commented some part of code - for deploy" />
@@ -519,7 +523,8 @@
     <MESSAGE value="Added user comment card" />
     <MESSAGE value="Added user comment info component" />
     <MESSAGE value="Added category buttons on user site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added category buttons on user site" />
+    <MESSAGE value="Removed unused imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unused imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
