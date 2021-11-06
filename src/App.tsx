@@ -14,6 +14,7 @@ import FeedbackList from './components/FeedbackList';
 import MainPage from './pages/MainPage';
 import AddFeedbackPage from './pages/AddFeedbackPage';
 import UserCommentsPage from './pages/UserCommentsPage';
+import LoginPage from './pages/LoginPage';
 
 const useStyles = makeStyles(() => ({
   root: {

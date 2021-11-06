@@ -1,10 +1,18 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, TextField } from '@material-ui/core';
 
 const LoginPage: React.FC = () => (
-  <form>
-    <Button> Log in</Button>
-  </form>
+  <>
+    <form>
+      <TextField placeholder="title" />
+      <TextField placeholder="title" />
+      <TextField placeholder="title" />
+
+      <Button> Log in</Button>
+    </form>
+    <Button> Create account</Button>
+    <Button> Forgot password</Button>
+  </>
 );
 
 export default LoginPage;
