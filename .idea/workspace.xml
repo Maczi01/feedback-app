@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Added Login page (without implementation)">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Inputs for form (in fow)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,14 +131,8 @@
       <workItem from="1635607226206" duration="7295000" />
       <workItem from="1635888559564" duration="3345000" />
       <workItem from="1636136020833" duration="2635000" />
-      <workItem from="1636212670420" duration="1447000" />
-    </task>
-    <task id="LOCAL-00017" summary="Refactor files with eslint">
-      <created>1631796079384</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1631796079386</updated>
+      <workItem from="1636212670420" duration="8221000" />
+      <workItem from="1636411566486" duration="391000" />
     </task>
     <task id="LOCAL-00018" summary="Added redux to project">
       <created>1631832898860</created>
@@ -476,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636213238003</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Inputs for form (in fow)">
+      <created>1636214562947</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1636214562947</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed in feedbackCard component - refactor" />
     <MESSAGE value="Commented some part of code - for deploy" />
     <MESSAGE value="Fixed actions and reducer (add feedback)" />
     <MESSAGE value="Fixed actions and reducer, added methods for components" />
@@ -521,7 +521,8 @@
     <MESSAGE value="Added category buttons on user site" />
     <MESSAGE value="Removed unused imports" />
     <MESSAGE value="Added Login page (without implementation)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Login page (without implementation)" />
+    <MESSAGE value="Inputs for form (in fow)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inputs for form (in fow)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
