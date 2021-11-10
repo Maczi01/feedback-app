@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Inputs for form (in fow)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +132,7 @@
       <workItem from="1636136020833" duration="2635000" />
       <workItem from="1636212670420" duration="8221000" />
       <workItem from="1636411566486" duration="391000" />
+      <workItem from="1636582298031" duration="1130000" />
     </task>
     <task id="LOCAL-00018" summary="Added redux to project">
       <created>1631832898860</created>

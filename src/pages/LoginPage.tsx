@@ -37,7 +37,6 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   media: {
     height: '100%',
-    // width: '100%'
   },
 }));
 
