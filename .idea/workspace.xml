@@ -4,34 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="Inputs for form (in fow)">
+    <list default="true" id="ce21f6c6-df63-4781-8239-a75dcab9024f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__tests__/Navbar.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/Navbar.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/FeedbackActions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FeedbackList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeedbackList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PremiumAccessImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductImageWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCommentCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCommentCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCommentInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCommentInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserInfoImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfoImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/createPalette.d.ts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddFeedbackPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserCommentsPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/FeedbackReducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/MainTemplate.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/theme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/theme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,14 +134,7 @@
       <workItem from="1636411566486" duration="391000" />
       <workItem from="1636582298031" duration="1130000" />
       <workItem from="1637584528771" duration="3580000" />
-      <workItem from="1637847920921" duration="3223000" />
-    </task>
-    <task id="LOCAL-00018" summary="Added redux to project">
-      <created>1631832898860</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1631832898861</updated>
+      <workItem from="1637847920921" duration="4757000" />
     </task>
     <task id="LOCAL-00019" summary="Changes github actions file">
       <created>1631882145056</created>
@@ -505,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636214562947</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added types to add item">
+      <created>1637881961064</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1637881961064</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Commented some part of code - for deploy" />
     <MESSAGE value="Fixed actions and reducer (add feedback)" />
     <MESSAGE value="Fixed actions and reducer, added methods for components" />
     <MESSAGE value="Fixed remove method" />
@@ -550,7 +523,8 @@
     <MESSAGE value="Removed unused imports" />
     <MESSAGE value="Added Login page (without implementation)" />
     <MESSAGE value="Inputs for form (in fow)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inputs for form (in fow)" />
+    <MESSAGE value="Added types to add item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added types to add item" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
