@@ -43,6 +43,12 @@ const UserInfoImage: React.FC = () => {
         <Box fontSize={24} fontWeight="fontWeightMedium">
           User info
         </Box>
+        <Box fontSize={12} fontWeight="fontWeightMedium">
+          user name
+        </Box>
+        <Box fontSize={12} fontWeight="fontWeightMedium">
+          user email
+        </Box>
       </Typography>
     </Box>
   );

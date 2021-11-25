@@ -26,7 +26,7 @@ const Navbar: React.FC = () => (
         <Button variant="contained">Add feedback</Button>
       </Link>
       <Link to="/login">
-        <Button variant="contained">Add feedback</Button>
+        <Button variant="contained">Login</Button>
       </Link>
       <TextField id="outlined-basic" label="Outlined" variant="outlined" />
     </Toolbar>

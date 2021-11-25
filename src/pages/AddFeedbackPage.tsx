@@ -6,6 +6,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Rating from '@mui/material/Rating';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { AnyAction, Dispatch } from 'redux';
+import { ThunkDispatch } from 'redux-thunk';
 import MainTemplate from '../templates/MainTemplate';
 import editIcon from '../assets/editIcon.svg';
 import { addFeedback as addItemAction } from '../actions/FeedbackActions';
@@ -110,7 +112,7 @@ const AddFeedbackPage: React.FC<Props> = ({ addItem }) => {
   );
 };
 // TODO : add types to dispatch
-const mapDispatchToProps = (dispatch: any) => ({
+const mapDispatchToProps = (dispatch: ThunkDispatch<null, null, AnyAction>) => ({
   addItem: (feedback: Feedback) => dispatch(addItemAction(feedback)),
 });
 export default connect(null, mapDispatchToProps)(AddFeedbackPage);

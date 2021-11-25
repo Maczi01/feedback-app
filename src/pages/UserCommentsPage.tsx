@@ -24,7 +24,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: '10px 20px',
     backgroundColor: theme.palette.text.primary,
     borderRadius: '10px',
-    // width: '100%',
   },
   bar: {
     display: 'flex',
@@ -86,30 +85,6 @@ const UserCommentsPage: React.FC = () => {
 
         <Box className={classes.bio}>
           <UserInfoImage />
-
-          <Box className={classes.categories}>
-
-            <ToggleButtonGroup
-                            // value={alignment}
-              // exclusive
-                            // onChange={handleAlignment}
-              aria-label="text alignment"
-              className={classes.buttonsGroup}
-            >
-              <ToggleButton value="left" aria-label="left aligned">
-                <Button size="small" variant="contained"> User</Button>
-              </ToggleButton>
-              <ToggleButton value="center" aria-label="centered">
-                <Button size="small" variant="contained"> User</Button>
-              </ToggleButton>
-              <ToggleButton value="right" aria-label="right aligned">
-                <Button size="small" variant="contained"> User</Button>
-              </ToggleButton>
-              <ToggleButton value="justify" aria-label="justified" disabled>
-                <Button size="small" variant="contained"> User</Button>
-              </ToggleButton>
-            </ToggleButtonGroup>
-          </Box>
         </Box>
         <Box className={classes.comments}>
           <UserCommentInfo />
